@@ -1,0 +1,135 @@
+---
+- title: Leadership
+  icon: icons/people.png
+  theme: Décentralisation
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: leadership_color
+  textcolor: light_text
+
+- title: Leadership
+  icon: icons/people.png
+  theme: toto
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: leadership_color
+  textcolor: light_text
+
+- title: Leadership
+  icon: icons/conversation.png
+  theme: tata
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: leadership_color
+  textcolor: light_text
+
+- title: Code Quality
+  icon: icons/push-button.png
+  theme: Bidule
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: continuous_delivery_color
+  textcolor: light_text
+
+- title: Code Quality
+  icon: icons/collaboration.png
+  theme: Outils
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: continuous_delivery_color
+  textcolor: light_text
+
+- title: Code Quality
+  icon: icons/tools.png
+  theme: toto
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: continuous_delivery_color
+  textcolor: light_text
+
+- title: Agile
+  icon: icons/agile.png
+  theme: agile
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: leadership_color
+  textcolor: light_text
+
+- title: Agile
+  icon: icons/leadership-troll.png
+  theme: agile
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: continuous_delivery_color
+  textcolor: light_text
+
+- title: Agile
+  icon: icons/agile.png
+  theme: agile
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: code_quality_color
+  textcolor: light_text
+
+- title: Continuous Delivery
+  icon: icons/package.png
+  theme: Package
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: agile_color
+  textcolor: light_text
+
+- title: Continuous Delivery
+  icon: icons/pipeline.png
+  theme: Provisionning & Build
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: people_color
+  textcolor: medium_text
+
+- title: Continuous Delivery
+  icon: icons/package.png
+  theme: Pipeline
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: testing_color
+  textcolor: medium_text
+
+- title: Testing
+  icon: icons/testing.png
+  theme: testing
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: metrology_color
+  textcolor: dark_text
+
+- title: Testing
+  icon: icons/testing.png
+  theme: testing
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: bizdev_partnership_color
+  textcolor: dark_text
+
+- title: Testing
+  icon: icons/metrics.png
+  theme: testing
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+  tags:
+  cardcolor: collaboration_color
+  textcolor: dark_text

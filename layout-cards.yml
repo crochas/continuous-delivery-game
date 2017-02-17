@@ -1,0 +1,62 @@
+AllText:
+  font: ChunkFive Roman,Sans
+  align: center
+  color: '#F3EFE3'
+  font_size: 40
+
+Background:
+  x: 50
+  y: 50
+  width: 730
+  height: 1030
+  crop_x: 10
+  crop_y: 10
+  fill_color: white
+  stroke_width: 20
+
+Description:
+  extends: 'AllText'
+  x: 115
+  y: 650
+  width: 600
+  height: 650
+  crop_x: 5
+  crop_y: 5
+  justify: true
+  valign: top
+  align: left
+  font_size: 25
+
+art:
+  x: 200
+  y: 150
+  width: 400
+  height: 400
+  align: center
+  valign: middle
+
+badge:
+    x: 500
+    y: 50
+    width: 64
+    height: 64
+    align: center
+    valign: middle
+
+Title:
+  extends: AllText
+  font: ChunkFive Roman,Sans bold
+  font_size: 40
+  width: 700
+  x: 50
+  y: 85
+
+Theme:
+  extends: Title
+  width: 700
+  x: 50
+  y: 560
+
+Tags:
+  extends: AllText
+  y: 600
