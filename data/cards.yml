@@ -1,135 +1,271 @@
 ---
-- title: Leadership
-  icon: icons/people.png
-  theme: Décentralisation
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
-  tags:
-  cardcolor: leadership_color
-  textcolor: light_text
-
-- title: Leadership
-  icon: icons/people.png
-  theme: toto
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
-  tags:
-  cardcolor: leadership_color
-  textcolor: light_text
-
-- title: Leadership
-  icon: icons/conversation.png
-  theme: tata
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
-  tags:
-  cardcolor: leadership_color
-  textcolor: light_text
-
-- title: Code Quality
-  icon: icons/push-button.png
-  theme: Bidule
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
-  tags:
-  cardcolor: continuous_delivery_color
-  textcolor: light_text
-
-- title: Code Quality
-  icon: icons/collaboration.png
-  theme: Outils
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
-  tags:
-  cardcolor: continuous_delivery_color
-  textcolor: light_text
-
-- title: Code Quality
-  icon: icons/tools.png
-  theme: toto
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
-  tags:
-  cardcolor: continuous_delivery_color
-  textcolor: light_text
-
-- title: Agile
+- title: Agile Basics
   icon: icons/agile.png
-  theme: agile
+  theme: Continuous improvement
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
-  tags:
-  cardcolor: leadership_color
-  textcolor: light_text
-
-- title: Agile
-  icon: icons/leadership-troll.png
-  theme: agile
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
-  tags:
-  cardcolor: continuous_delivery_color
-  textcolor: light_text
-
-- title: Agile
-  icon: icons/agile.png
-  theme: agile
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
-  tags:
-  cardcolor: code_quality_color
-  textcolor: light_text
-
-- title: Continuous Delivery
-  icon: icons/package.png
-  theme: Package
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+    L'équipe, y compris les ops et le support, cherche à améliorer son fonctionnement en continu. Des rétrospectives par exemple sont faites régulièrement. Les actions font l'œuvre d'un suivi régulier et officiel.
   tags:
   cardcolor: agile_color
   textcolor: light_text
+  shield: A
 
-- title: Continuous Delivery
-  icon: icons/pipeline.png
-  theme: Provisionning & Build
+- title: Agile Basics
+  icon: icons/agile.png
+  theme: Backlog management
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+    Le Product Owner travaille régulièrement sur le backlog, ce dernier est partagé avec l'équipe et l'ensemble des parties prenantes. Il est ordonné et qualifié. Avant le développement, le PO et l'équipe découpent en user stories, travaillent sur les critères d'acceptance. Il existe une DoR et une DoD
   tags:
-  cardcolor: people_color
-  textcolor: medium_text
+  cardcolor: agile_color
+  textcolor: light_text
+  shield: B
 
-- title: Continuous Delivery
-  icon: icons/package.png
-  theme: Pipeline
+- title: Agile Basics
+  icon: icons/agile.png
+  theme: Synchronisation
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+    A chaque niveau de l'organisation, les points de synchronisation sont structurés et connus de tous : l'équipe fait des daily meetings, des backlog grooming, des points inter-équipes, des démonstrations, s'appuie sur un visual management efficace…
   tags:
-  cardcolor: testing_color
-  textcolor: medium_text
+  cardcolor: agile_color
+  textcolor: light_text
+  shield: C
 
-- title: Testing
-  icon: icons/testing.png
-  theme: testing
+- title: Leadership
+  icon: icons/people.png
+  theme: Decentralized decisions
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+    Dans une équipe auto organisée, les ordres imposés par la hiérarchie sont limités. Pour arriver à minimiser un contrôle centralisé, les responsables expriment clairement les domaines où la décision est hiérarchique et ceux ou elle laisse l'équipe autonome
   tags:
-  cardcolor: metrology_color
-  textcolor: dark_text
+  cardcolor: leadership_color
+  textcolor: light_text
+  shield: D
 
-- title: Testing
-  icon: icons/testing.png
-  theme: testing
+- title: Leadership
+  icon: icons/conversation.png
+  theme: Space for sharing
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+    Les managers cherchent à faciliter la communication et les échanges, la montée en compétences des équipes (interne+externe). Du temps est consacré à l’échange et au partage : BBL, parcours pour les nouveaux arrivants, mise en avant des membres les plus pédagogues
+  tags:
+  cardcolor: leadership_color
+  textcolor: light_text
+  shield: E
+
+- title: Leadership
+  icon: icons/why.png
+  theme: Start with why
+  description: |
+    Les décideurs ne commencent pas par expliquer le « quoi » ou même le « comment ». Ils s'attachent plutôt à exposer le « pourquoi » et « pour qui »
+  tags:
+  cardcolor: leadership_color
+  textcolor: light_text
+  shield: F
+
+- title: BizDev partnership
+  icon: icons/partnership.png
+  theme: PO onboarded
+  description: |
+    Le Product Owner fait partie de l'équipe, il écoute les membres, il accepte de faire des expérimentations. Il contribue à l'amélioration continue en participant par exemple aux rétrospectives
   tags:
   cardcolor: bizdev_partnership_color
-  textcolor: dark_text
+  textcolor: light_text
+  shield: G
 
-- title: Testing
-  icon: icons/metrics.png
-  theme: testing
+- title: BizDev partnership
+  icon: icons/partnership.png
+  theme: Business value model
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate dui eget neque venenatis, sed varius erat auctor. Nullam ut blandit neque, sit amet scelerisque odio. Suspendisse potenti. Vivamus vitae sapien tempus, maximus diam ac, egestas magna. Donec dapibus venenatis.
+    Les managers cherchent à faciliter la communication et les échanges, la montée en compétences des équipes (interne+externe). Du temps est consacré à l’échange et au partage : BBL, parcours pour les nouveaux arrivants, mise en avant des membres les plus pédagogues
+  tags:
+  cardcolor: bizdev_partnership_color
+  textcolor: light_text
+  shield: H
+
+- title: BizDev partnership
+  icon: icons/slicing.png
+  theme: Slicing
+  description: |
+    Les décideurs ne commencent pas par expliquer le « quoi » ou même le « comment ». Ils s'attachent plutôt à exposer le « pourquoi » et « pour qui »
+  tags:
+  cardcolor: bizdev_partnership_color
+  textcolor: light_text
+  shield: I
+
+- title: Collaboration
+  icon: icons/why.png
+  theme: Focus on why
+  description: |
+    Dans le cadre de la conversation entre métier et IT, on travaille sur la compréhension de la vision. Il est important de partager les besoins et de se focaliser sur l'intention plutôt que sur les moyens
   tags:
   cardcolor: collaboration_color
   textcolor: dark_text
+  shield: J
+
+- title: Collaboration
+  icon: icons/collaboration.png
+  theme: Collective ownership
+  description: |
+    L'équipe porte une attention particulière à sa résilience. Les équipiers sont co-responsables et assurent la pérennité de leurs pratiques en évitant de polariser rôles et connaissances sur une seule personne
+  tags:
+  cardcolor: collaboration_color
+  textcolor: dark_text
+  shield: K
+
+- title: Collaboration
+  icon: icons/example.png
+  theme: Spécification par l'exemple
+  description: |
+    Les spécifications sont co-écrites : un BA, un dev et testeur travaillent dès le cadrage sur le besoin, on s'intéresse aux comportements, on utilise des exemples, tout en laissant une marge de manœuvre concernant les moyens
+  tags:
+  cardcolor: collaboration_color
+  textcolor: dark_text
+  shield: L
+
+- title: CD Pipeline
+  icon: icons/package.png
+  theme: Build & Package
+  description: |
+    La construction et le packaging des artefacts sont réalisés par un automate. Ils sont déposés automatiquement sur un serveur de stockage sécurisé. La traçabilité est assurée
+  tags:
+  cardcolor: continuous_delivery_color
+  textcolor: dark_text
+  shield: M
+
+- title: CD Pipeline
+  icon: icons/push-button.png
+  theme: Provisionning & Deploy
+  description: |
+    La mise à disposition d'un environnement et le déploiement des livrables sont réalisés par un automate. Dev et Ops partagent les mêmes outils, qui sont utilisés depuis Dev jusque Prod
+  tags:
+  cardcolor: continuous_delivery_color
+  textcolor: dark_text
+  shield: N
+
+- title: CD Pipeline
+  icon: icons/automated.png
+  theme: Automated tests
+  description: |
+    Les tests sont éxécutés de façon automatique et en continu par un automate, ce qui fournit du feedback rapide à l'équipe et lui permet de conditionner la promotion sur le pipeline
+  tags:
+  cardcolor: continuous_delivery_color
+  textcolor: dark_text
+  shield: O
+
+- title: Métrologie
+  icon: icons/metrics.png
+  theme: Mesure de la valeur
+  description: |
+    Des indicateurs concernant la valeur délivrée par le produit sont mis à disposition dans des tableaux de bord permettant au métier d'obtenir du feedback et d'améliorer son efficacité opérationnelle
+  tags:
+  cardcolor: metrology_color
+  textcolor: dark_text
+  shield: P
+
+- title: Métrologie
+  icon: icons/metrics.png
+  theme: Platform
+  description: |
+    Les indicateurs sont consolidés dans un outil permettant d'exposer leur évolution dans le temps et d'effectuer des corrélations
+  tags:
+  cardcolor: metrology_color
+  textcolor: dark_text
+  shield: Q
+
+- title: Métrologie
+  icon: icons/metrics.png
+  theme: Mesure de l'usage
+  description: |
+    Des indicateurs concernant l'usage du produit sont mis à disposition dans des tableaux de bord permettant aux acteurs de détecter des anomalies potentielles, et faciliter la priorisation des User Stories
+  tags:
+  cardcolor: metrology_color
+  textcolor: dark_text
+  shield: R
+
+
+- title: Testing
+  icon: icons/testing.png
+  theme: Stratégie
+  description: |
+    L'équipe maintient une stratégie de test permettant à tous de visualiser les enjeux et les moyens mis en œuvre pour assurer la qualité de l'acceptance du produit
+  tags:
+  cardcolor: code_quality_color
+  textcolor: dark_text
+  shield: S
+
+- title: Testing
+  icon: icons/review.png
+  theme: Outils
+  description: |
+    L'équipe dispose d'un outillage de tests automatiques permettant de couvrir les tests unitaires, intégration, performance ; les outils sont adaptés au contexte technique et fonctionnel
+  tags:
+  cardcolor: code_quality_color
+  textcolor: dark_text
+  shield: T
+
+- title: Testing
+  icon: icons/tools.png
+  theme: Pratiques
+  description: |
+    Les membres de l'équipe connaissent les pratiques du TDD et BDD, et les typologies de tests (unitaire, intégration, E2E, performance). Ils choisissent la meilleure technique en fonction du contexte
+  tags:
+  cardcolor: code_quality_color
+  textcolor: dark_text
+  shield: U
+
+- title: Code quality
+  icon: icons/book.png
+  theme: Théorie
+  description: |
+    Les membres de l'équipe maîtrisent les principes théoriques de la qualité de code : CleanCode, Legacy refactoring, SOLID. Tous les développeurs connaissent les règles appliquées sur la base de code
+  tags:
+  cardcolor: code_quality_color
+  textcolor: dark_text
+  shield: V
+
+- title: Code quality
+  icon: icons/review.png
+  theme: Parler du code
+  description: |
+    L'équipe met en œuvre des revues de code lors desquelles les développeurs peuvent échanger, confronter leurs points de vue, et faire évoluer les règles communes
+  tags:
+  cardcolor: code_quality_color
+  textcolor: dark_text
+  shield: W
+
+- title: Code quality
+  icon: icons/tools.png
+  theme: Outils
+  description: |
+    Des outils d'analyse de code permettent de mesurer la qualité de facon tangible, de pointer les violations de règles, et de constater l'évolution dans le temps des métriques
+  tags:
+  cardcolor: code_quality_color
+  textcolor: dark_text
+  shield: X
+
+- title: People
+  icon: icons/people.png
+  theme: Develop People
+  description: |
+    La confiance fait partie intégrante du mode de fonctionnement. Le feedback constructif régulier se fait naturellement, sans crainte de jugement. Les compétences de chacun sont connues et des parcours de formation en lien avec les besoins individuels et collectifs existent."
+  tags:
+  cardcolor: people_color
+  textcolor: dark_text
+  shield: Y
+
+- title: People
+  icon: icons/people.png
+  theme: Respect
+  description: |
+    L'expérimentation et le droit à l'erreur sont des principes forts de l'équipe. Les remontées de problèmes sont valorisées car source d'amélioration continue. Le niveau d'exigence est intrinsèque afin de fournir aux partenaires un produit de la meilleure qualité possible.
+  tags:
+  cardcolor: people_color
+  textcolor: dark_text
+  shield: Z
+
+- title: People
+  icon: icons/people.png
+  theme: Exemplarité
+  description: |
+    Des règles de vie / valeurs existent, sont construites et partagées par l'équipe (y compris manager) Chacun s'efforce de montrer l'exemple plutôt que d'être donneur de leçon."
+  tags:
+  cardcolor: people_color
+  textcolor: dark_text
+  shield: Ω

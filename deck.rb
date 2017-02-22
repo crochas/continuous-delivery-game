@@ -30,17 +30,17 @@ def debug_grid()
 end
 
 def set_background()
-    background color: 'white'
+    background color: 'black'
 end
 
 Cards = YAML.load_file('data/cards.yml')
 Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
   set_background()
-  png mask: Cards.map { |e| e["textcolor"]} , file: 'icons/shieldA.png', layout: 'badge'
 
   rect layout: 'Background', fill_color: Cards.map { |e| e["cardcolor"]}
 
   text str: Cards.map { |e| e["title"]}, layout: 'Title', color: Cards.map { |e| e["textcolor"]}
+  text str: Cards.map { |e| e["shield"]}, layout: 'Shield', color: Cards.map { |e| e["textcolor"]}
   png mask: Cards.map { |e| e["textcolor"]} , file: Cards.map { |e| e["icon"]}, layout: 'art'
 
   text str: Cards.map { |e| e["theme"]}, layout: 'Theme', color: Cards.map { |e| e["textcolor"]}
