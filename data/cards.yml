@@ -33,7 +33,7 @@
   icon: icons/people.png
   theme: Decentralized decisions
   description: |
-    Dans une équipe auto organisée, les ordres imposés par la hiérarchie sont limités. Pour arriver à minimiser un contrôle centralisé, les responsables expriment clairement les domaines où la décision est hiérarchique et ceux ou elle laisse l'équipe autonome
+    Dans une équipe auto organisée, les ordres imposés par la hiérarchie sont limités. Pour arriver à minimiser un contrôle centralisé, les responsables expriment clairement les domaines où la décision est hiérarchique et ceux où ils laissent l'équipe autonome
   tags:
   cardcolor: leadership_color
   textcolor: light_text
@@ -73,7 +73,7 @@
   icon: icons/partnership.png
   theme: Business value model
   description: |
-    Les managers cherchent à faciliter la communication et les échanges, la montée en compétences des équipes (interne+externe). Du temps est consacré à l’échange et au partage : BBL, parcours pour les nouveaux arrivants, mise en avant des membres les plus pédagogues
+      La priorisation des sujets à traiter est faite autour de conversations entre l'équipe et les parties prenantes, conversations structurées autour des enjeux et de la valeur, avec des critères explicites et partagés
   tags:
   cardcolor: bizdev_partnership_color
   textcolor: light_text
@@ -83,7 +83,7 @@
   icon: icons/slicing.png
   theme: Slicing
   description: |
-    Les décideurs ne commencent pas par expliquer le « quoi » ou même le « comment ». Ils s'attachent plutôt à exposer le « pourquoi » et « pour qui »
+    Les demandes sont découpées en éléments fonctionnels minimaux permettant de remplir un seul objectif métier à la fois
   tags:
   cardcolor: bizdev_partnership_color
   textcolor: light_text
@@ -143,7 +143,7 @@
   icon: icons/automated.png
   theme: Automated tests
   description: |
-    Les tests sont éxécutés de façon automatique et en continu par un automate, ce qui fournit du feedback rapide à l'équipe et lui permet de conditionner la promotion sur le pipeline
+    Les tests sont exécutés de façon automatique et en continu par un automate, ce qui fournit du feedback rapide à l'équipe et lui permet de conditionner la promotion sur le pipeline
   tags:
   cardcolor: continuous_delivery_color
   textcolor: dark_text
@@ -173,7 +173,7 @@
   icon: icons/metrics.png
   theme: Mesure de l'usage
   description: |
-    Des indicateurs concernant l'usage du produit sont mis à disposition dans des tableaux de bord permettant aux acteurs de détecter des anomalies potentielles, et faciliter la priorisation des User Stories
+    Des indicateurs concernant l'usage du produit sont mis à disposition dans des tableaux de bord permettant aux acteurs de détecter des anomalies potentielles, et faciliter la priorisation des besoins
   tags:
   cardcolor: metrology_color
   textcolor: dark_text
@@ -204,7 +204,7 @@
   icon: icons/tools.png
   theme: Pratiques
   description: |
-    Les membres de l'équipe connaissent les pratiques du TDD et BDD, et les typologies de tests (unitaire, intégration, E2E, performance). Ils choisissent la meilleure technique en fonction du contexte
+    Les membres de l'équipe connaissent les pratiques du TDD et BDD, et les typologies de tests (unitaire, intégration, E2E, performance). Ils choisissent la meilleure technique en fonction du contexte et de la stratégie de tests
   tags:
   cardcolor: code_quality_color
   textcolor: dark_text
@@ -244,7 +244,7 @@
   icon: icons/people.png
   theme: Develop People
   description: |
-    La confiance fait partie intégrante du mode de fonctionnement. Le feedback constructif régulier se fait naturellement, sans crainte de jugement. Les compétences de chacun sont connues et des parcours de formation en lien avec les besoins individuels et collectifs existent."
+    La confiance fait partie intégrante du mode de fonctionnement. Le feedback constructif régulier se fait naturellement, sans crainte de jugement. Les compétences de chacun sont connues et des parcours de formation en lien avec les besoins individuels et collectifs existent.
   tags:
   cardcolor: people_color
   textcolor: dark_text
@@ -264,7 +264,7 @@
   icon: icons/people.png
   theme: Exemplarité
   description: |
-    Des règles de vie / valeurs existent, sont construites et partagées par l'équipe (y compris manager) Chacun s'efforce de montrer l'exemple plutôt que d'être donneur de leçon."
+    Des règles de vie / valeurs existent, sont construites et partagées par l'équipe (y compris manager) Chacun s'efforce de montrer l'exemple plutôt que d'être donneur de leçon.
   tags:
   cardcolor: people_color
   textcolor: dark_text
