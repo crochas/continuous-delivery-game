@@ -1,0 +1,116 @@
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  crop_x: 20
+  crop_y: 20
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  stroke_width: 5
+  crop_corner_radius: 10
+
+AllText:
+  font: ChunkFive Roman,Sans
+  align: center
+  color: '#F3EFE3'
+  font_size: 40
+
+Background:
+  x: 75
+  y: 75
+  width: 675
+  height: 150
+  crop_x: 20
+  crop_y: 20
+  fill_color: white
+  stroke_width: 0
+
+CardA:
+  x: 100
+  y: 80
+  width: 200
+  height: 10
+
+CardB:
+  extends: 'CardA'
+  x: 320
+
+CardC:
+  extends: 'CardA'
+  x: 540
+
+Description:
+  extends: 'AllText'
+  x: 115
+  y: 350
+  width: 600
+  height: 600
+  crop_x: 20
+  crop_y: 20
+  justify: false
+  valign: top
+  align: center
+  font_size: 31
+  color: 'black'
+
+Shield:
+  extends: 'AllText'
+  font: ChunkFive Roman,Sans bold
+  font_size: 35
+  x: 720
+  y: 80
+  width: 100
+  height: 100
+  justify: true
+  valign: top
+  align: left
+
+art:
+  x: 125
+  y: 100
+  width: 120
+  height: 120
+  align: center
+  valign: middle
+
+badge:
+  x: 50
+  y: 50
+  width: 64
+  height: 64
+  align: center
+  valign: middle
+
+Title:
+  extends: AllText
+  font: ChunkFive Roman,Sans bold
+  font_size: 35
+  width: 500
+  x: 220
+  y: 125
+
+Theme:
+  extends: Title
+  font_size: 32
+  width: 700
+  x: 50
+  y: 280
+  color: 'black'
+
+Tags:
+  extends: 'AllText'
+  font: ChunkFive Roman,Sans italic
+  x: 115
+  y: 950
+  width: 620
+  height: 100
+  valign: middle
+  align: center
+  font_size: 31
