@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ -z $http_proxy ]
+then
+  BUILD_OPTS=""
+else
+  IS_LOCAL_PROXY=$(echo $http_proxy | grep -c localhost)
+  [ $IS_LOCAL_PROXY -eq 1 ] && PROXY="$(echo $http_proxy | sed -e 's/localhost/172.17.0.1/')" || PROXY="$http_proxy"
+  BUILD_OPTS="--build-arg http_proxy=$PROXY"
+fi
+
+docker build --pull $BUILD_OPTS -t container .
+#docker run container (groupadd $(id --group --name) ; docker run container useradd --gid $(id --group --name) $(id --user --name))
+docker run -it --user 1000:1000 -v $(pwd):/workspace/ container 

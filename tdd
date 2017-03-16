@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+while true; do
+    /usr/bin/rake
+    echo -e "\nWait Changes"
+    inotifywait -qr -e modify -e create -e move -e delete .
+done
