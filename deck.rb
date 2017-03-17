@@ -5,6 +5,22 @@ require 'game_icons'
 Version=1
 Copywright = "version: v#{Version}"
 
+def yaml2dataframe(yamldata)
+  resultCards = Squib::DataFrame.new
+  # First Card
+  firstCard = yamldata[0]
+  firstCard.keys.each do |k|
+    resultCards[k] = []
+  end
+
+  yamldata.each do |card|
+    card.keys.each do |k|
+      resultCards[k] << card[k]
+    end
+  end
+  return resultCards
+end
+
 def cutmark(top, left, right, bottom, size)
   line x1: left, y1: top, x2: left+size, y2: top, stroke_width: 1, cap: :round, stroke_color: 'white'
   line x1: left, y1: top, x2: left, y2: top+size, stroke_width: 1, cap: :round, stroke_color: 'white'
@@ -34,22 +50,26 @@ def set_background()
 end
 
 Cards = YAML.load_file('data/cards.yml')
+Cards2 = yaml2dataframe(Cards)
+                            
+
 Squib::Deck.new(cards: Cards.size, layout: 'layout-cards-white.yml') do
   background color: 'white'
   rect layout: 'cut' # cut line as defined by TheGameCrafter
-  rect layout: 'safe', stroke_color: Cards.map { |e| e["cardcolor"]} # safe zone as defined by TheGameCrafter
-  rect layout: 'HeaderFlatBottom', fill_color: Cards.map { |e| e["cardcolor"]}
-  rect layout: 'HeaderRound', fill_color: Cards.map { |e| e["cardcolor"]}
+  rect layout: 'safe', stroke_color: Cards2.cardcolor # safe zone as defined by TheGameCrafter
+  rect layout: 'HeaderFlatBottom', fill_color: Cards2.cardcolor
+  rect layout: 'HeaderRound', fill_color: Cards2.cardcolor
 
-  rect range: [0,3,6,9,12,15,18,21,24], layout: 'CardA', fill_color: Cards.map { |e| e["textcolor"]}
-  rect range: [1,4,7,10,13,16,19,22,25], layout: 'CardB', fill_color: Cards.map { |e| e["textcolor"]}
-  rect range: [2,5,8,11,14,17,20,23,26], layout: 'CardC', fill_color: Cards.map { |e| e["textcolor"]}
-
-  text str: Cards.map { |e| e["title"]}, layout: 'Title', color: Cards.map { |e| e["textcolor"]}
-  text str: Cards.map { |e| e["theme"]}, layout: 'Theme'
-  text str: Cards.map { |e| e["description"]}, layout: 'Description'
-  png mask: Cards.map { |e| e["textcolor"]} , file: Cards.map { |e| e["icon"]}, layout: 'icon'
-  text str: Cards.map { |e| e["tags"]}, layout: 'Tags', color: Cards.map { |e| e["cardcolor"]}
+  card_marker = ['CardA', 'CardB', 'CardC']
+  0.upto(Cards.size-1) do |n|
+    rect range: n, layout: card_marker[n % 3], fill_color: Cards2.textcolor, stroke_color: Cards2.textcolor
+  end
+    
+  text str: Cards2.title, layout: 'Title', color: Cards.map { |e| e["textcolor"]}
+  text str: Cards2.theme, layout: 'Theme'
+  text str: Cards2.description, layout: 'Description'
+  png mask: Cards2.textcolor, file: Cards2.icon, layout: 'icon'
+  text str: Cards2.tags, layout: 'Tags', color: Cards2.cardcolor
 
   save_home_made "cards-white.pdf"
 end

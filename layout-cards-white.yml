@@ -43,6 +43,7 @@ CardA:
   # 675 -2*25 = 625 -> 200 - 12 - 200 - 12 - 200
   x: 100
   y: 80
+  stroke_color: white
   width: 200
   height: 20
   radius: 5
