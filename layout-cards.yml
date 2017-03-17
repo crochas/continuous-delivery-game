@@ -4,15 +4,34 @@ AllText:
   color: '#F3EFE3'
   font_size: 40
 
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  crop_x: 20
+  crop_y: 20
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  stroke_width: 5
+  radius: 25
+
 Background:
-  x: 60
-  y: 60
-  width: 720
-  height: 1020
+  x: 75
+  y: 75
+  width: 675
+  height: 975
   crop_x: 20
   crop_y: 20
   fill_color: white
-  stroke_width: 20
+  stroke_width: 5
+  radius: 25
 
 Description:
   extends: 'AllText'

@@ -36,7 +36,7 @@
     Dans une équipe auto organisée, les ordres imposés par la hiérarchie sont limités. Pour arriver à minimiser un contrôle centralisé, les responsables expriment clairement les domaines où la décision est hiérarchique et ceux où ils laissent l'équipe autonome
   tags: '#DELEGATION_POKER'
   cardcolor: leadership_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardA
 
 - title: LEADERSHIP
@@ -46,7 +46,7 @@
     Les managers cherchent à faciliter la communication et les échanges, la montée en compétences des équipes (interne+externe). Du temps est consacré à l’échange et au partage : BBL, parcours pour les nouveaux arrivants, mise en avant des membres les plus pédagogues
   tags: '#BBL #HACKATHON'
   cardcolor: leadership_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardA
 
 - title: LEADERSHIP
@@ -56,7 +56,7 @@
     Les décideurs ne commencent pas par expliquer le « quoi » ou même le « comment ». Ils s'attachent plutôt à exposer le « pourquoi » et « pour qui »
   tags: '#START_WITH_WHY'
   cardcolor: leadership_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardA
 
 - title: PARTNERSHIP
@@ -126,7 +126,7 @@
     La construction et le packaging des artefacts sont réalisés par un automate. Ils sont déposés automatiquement sur un serveur de stockage sécurisé. La traçabilité est assurée
   tags: '#CONTINUOUS_INTEGRATION'
   cardcolor: continuous_delivery_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardA
 
 - title: CD PIPELINE
@@ -136,7 +136,7 @@
     La mise à disposition d'un environnement et le déploiement des livrables sont réalisés par un automate. Dev et Ops partagent les mêmes outils, qui sont utilisés depuis Dev jusque Prod
   tags: '#XLD #ITaaS #PUPPET'
   cardcolor: continuous_delivery_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardA
 
 - title: CD PIPELINE
@@ -146,7 +146,7 @@
     Les tests sont exécutés de façon automatique et en continu par un automate, ce qui fournit du feedback rapide à l'équipe et lui permet de conditionner la promotion sur le pipeline
   tags: '#FAST_FEEDBACK'
   cardcolor: continuous_delivery_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardA
 
 - title: METROLOGIE
@@ -243,7 +243,7 @@
   icon: icons/people.png
   theme: Develop People
   description: |
-    La confiance fait partie intégrante du mode de fonctionnement. Le feedback constructif régulier se fait naturellement, sans crainte de jugement. Les compétences de chacun sont connues et des parcours de formation en lien avec les besoins individuels et collectifs existent.
+    La confiance est intégrée au mode de fonctionnement. Le feedback constructif régulier se fait naturellement, sans crainte de jugement. Les compétences de chacun sont connues et des parcours de formation en lien avec les besoins individuels et collectifs existent.
   tags: '#DEVELOP_PEOPLE'
   cardcolor: people_color
   textcolor: dark_text

@@ -14,7 +14,7 @@ safe:
   width: 675
   height: 975
   stroke_width: 5
-  crop_corner_radius: 10
+  radius: 25
 
 AllText:
   font: ChunkFive Roman,Sans
@@ -23,28 +23,38 @@ AllText:
   font_size: 40
 
 Background:
-  x: 75
-  y: 75
-  width: 675
-  height: 150
+  extends: "safe"
+  height: 160
   crop_x: 20
   crop_y: 20
   fill_color: white
   stroke_width: 0
 
+HeaderRound:
+  extends: "Background"
+
+HeaderFlatBottom:
+  extends: "Background"
+  y: += 100
+  height: -= 100
+  radius: 0
+
 CardA:
+  # 675 -2*25 = 625 -> 200 - 12 - 200 - 12 - 200
   x: 100
   y: 80
+  stroke_color: white
   width: 200
-  height: 10
+  height: 20
+  radius: 5
 
 CardB:
   extends: 'CardA'
-  x: 320
+  x: += 212
 
 CardC:
   extends: 'CardA'
-  x: 540
+  x: += 425
 
 Description:
   extends: 'AllText'
@@ -60,18 +70,6 @@ Description:
   font_size: 31
   color: 'black'
 
-Shield:
-  extends: 'AllText'
-  font: ChunkFive Roman,Sans bold
-  font_size: 35
-  x: 720
-  y: 80
-  width: 100
-  height: 100
-  justify: true
-  valign: top
-  align: left
-
 art:
   x: 125
   y: 100
@@ -80,13 +78,9 @@ art:
   align: center
   valign: middle
 
-badge:
-  x: 50
-  y: 50
-  width: 64
-  height: 64
-  align: center
-  valign: middle
+icon:
+  extends: 'art'
+  y: += 5
 
 Title:
   extends: AllText
@@ -94,7 +88,7 @@ Title:
   font_size: 35
   width: 500
   x: 220
-  y: 125
+  y: 140
 
 Theme:
   extends: Title
@@ -114,3 +108,26 @@ Tags:
   valign: middle
   align: center
   font_size: 31
+
+####
+
+Shield: # Not Used
+  extends: 'AllText'
+  font: ChunkFive Roman,Sans bold
+  font_size: 35
+  x: 720
+  y: 80
+  width: 100
+  height: 100
+  justify: true
+  valign: top
+  align: left
+
+badge:  # Not Used
+  x: 50
+  y: 50
+  width: 64
+  height: 64
+  align: center
+  valign: middle
+

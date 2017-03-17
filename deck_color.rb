@@ -16,6 +16,7 @@ def yaml2dataframe(yamldata)
   return resultCards
 end
 
+
 def cutmark(top, left, right, bottom, size)
   line x1: left, y1: top, x2: left+size, y2: top, stroke_width: 1, cap: :round, stroke_color: 'white'
   line x1: left, y1: top, x2: left, y2: top+size, stroke_width: 1, cap: :round, stroke_color: 'white'
@@ -41,29 +42,27 @@ def debug_grid()
 end
 
 def set_background()
-    background color: 'black'
+    background color: 'white'
 end
 
 Cards = YAML.load_file('data/cards.yml')
 Cards2 = yaml2dataframe(Cards)
 
-Squib::Deck.new(cards: Cards.size, layout: 'layout-cards-white.yml') do
-  background color: 'white'
+Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
+  set_background()
+
   rect layout: 'cut' # cut line as defined by TheGameCrafter
   rect layout: 'safe', stroke_color: Cards2.cardcolor # safe zone as defined by TheGameCrafter
-  rect layout: 'HeaderFlatBottom', fill_color: Cards2.cardcolor
-  rect layout: 'HeaderRound', fill_color: Cards2.cardcolor
+  rect layout: 'Background', fill_color: Cards2.cardcolor
 
-  card_marker = ['CardA', 'CardB', 'CardC']
-  0.upto(Cards.size-1) do |n|
-    rect range: n, layout: card_marker[n % 3], fill_color: Cards2.textcolor, stroke_color: Cards2.textcolor
-  end
-    
-  text str: Cards2.title, layout: 'Title', color: Cards.map { |e| e["textcolor"]}
-  text str: Cards2.theme, layout: 'Theme'
-  text str: Cards2.description, layout: 'Description'
-  png mask: Cards2.textcolor, file: Cards2.icon, layout: 'icon'
-  text str: Cards2.tags, layout: 'Tags', color: Cards2.cardcolor
+  
+  text str: Cards2.title, layout: 'Title', color: Cards2.textcolor
 
-  save_home_made "cards-white.pdf"
+  png mask: Cards2.textcolor , file: Cards2.icon, layout: 'art'
+
+  text str: Cards2.theme, layout: 'Theme', color: Cards2.textcolor
+  text str: Cards2.description, layout: 'Description', color: Cards2.textcolor
+
+  
+  save_home_made "cards-color.pdf"
 end
