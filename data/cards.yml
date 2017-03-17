@@ -243,7 +243,7 @@
   icon: icons/people.png
   theme: Develop People
   description: |
-    La confiance fait partie intégrante du mode de fonctionnement. Le feedback constructif régulier se fait naturellement, sans crainte de jugement. Les compétences de chacun sont connues et des parcours de formation en lien avec les besoins individuels et collectifs existent.
+    La confiance est intégrée au mode de fonctionnement. Le feedback constructif régulier se fait naturellement, sans crainte de jugement. Les compétences de chacun sont connues et des parcours de formation en lien avec les besoins individuels et collectifs existent.
   tags: '#DEVELOP_PEOPLE'
   cardcolor: people_color
   textcolor: dark_text
