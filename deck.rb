@@ -21,7 +21,7 @@ end
 
 def save_home_made(file)
   cutmark 40, 40, 785, 1085, 10
-  save format: :pdf, file: file, width: "29.7cm", height: "21cm", trim: 40, trim_radius:25, gap: 0
+  save format: :pdf, file: file, width: "29.7cm", height: "21cm", trim: 40, gap: 0
 end
 
 def debug_grid()
