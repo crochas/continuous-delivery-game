@@ -7,6 +7,7 @@ run apt-get update \
       libcairo2-dev \
       libpango1.0-dev \
       ruby \
+      inotify-tools \
     && apt-get clean 
 add Gemfile /workspace/Gemfile
 add Gemfile.lock /workspace/Gemfile.lock
