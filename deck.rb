@@ -33,22 +33,6 @@ def set_background()
     background color: 'black'
 end
 
-#Cards = YAML.load_file('data/cards.yml')
-#Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
-#  set_background()
-#
-#  rect layout: 'Background', fill_color: Cards.map { |e| e["cardcolor"]}
-#
-#  text str: Cards.map { |e| e["title"]}, layout: 'Title', color: Cards.map { |e| e["textcolor"]}
-#  text str: Cards.map { |e| e["shield"]}, layout: 'Shield', color: Cards.map { |e| e["textcolor"]}
-#  png mask: Cards.map { |e| e["textcolor"]} , file: Cards.map { |e| e["icon"]}, layout: 'art'
-#
-#  text str: Cards.map { |e| e["theme"]}, layout: 'Theme', color: Cards.map { |e| e["textcolor"]}
-#  text str: Cards.map { |e| e["description"]}, layout: 'Description', color: Cards.map { |e| e["textcolor"]}
-#
-#  save_home_made "cards.pdf"
-#end
-
 Cards = YAML.load_file('data/cards.yml')
 Squib::Deck.new(cards: Cards.size, layout: 'layout-cards-white.yml') do
   background color: 'white'
@@ -57,17 +41,14 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout-cards-white.yml') do
   rect layout: 'HeaderFlatBottom', fill_color: Cards.map { |e| e["cardcolor"]}
   rect layout: 'HeaderRound', fill_color: Cards.map { |e| e["cardcolor"]}
 
-
-
   rect range: [0,3,6,9,12,15,18,21,24], layout: 'CardA', fill_color: Cards.map { |e| e["textcolor"]}
   rect range: [1,4,7,10,13,16,19,22,25], layout: 'CardB', fill_color: Cards.map { |e| e["textcolor"]}
   rect range: [2,5,8,11,14,17,20,23,26], layout: 'CardC', fill_color: Cards.map { |e| e["textcolor"]}
 
-
   text str: Cards.map { |e| e["title"]}, layout: 'Title', color: Cards.map { |e| e["textcolor"]}
   text str: Cards.map { |e| e["theme"]}, layout: 'Theme'
   text str: Cards.map { |e| e["description"]}, layout: 'Description'
-  png mask: Cards.map { |e| e["textcolor"]} , file: Cards.map { |e| e["icon"]}, layout: 'art'
+  png mask: Cards.map { |e| e["textcolor"]} , file: Cards.map { |e| e["icon"]}, layout: 'icon'
   text str: Cards.map { |e| e["tags"]}, layout: 'Tags', color: Cards.map { |e| e["cardcolor"]}
 
   save_home_made "cards-white.pdf"

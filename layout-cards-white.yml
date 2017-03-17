@@ -24,7 +24,7 @@ AllText:
 
 Background:
   extends: "safe"
-  height: 150
+  height: 160
   crop_x: 20
   crop_y: 20
   fill_color: white
@@ -40,7 +40,7 @@ HeaderFlatBottom:
   radius: 0
 
 CardA:
-  # 675 -2*25 = 625 ; 200
+  # 675 -2*25 = 625 -> 200 - 12 - 200 - 12 - 200
   x: 100
   y: 80
   width: 200
@@ -69,18 +69,6 @@ Description:
   font_size: 31
   color: 'black'
 
-Shield:
-  extends: 'AllText'
-  font: ChunkFive Roman,Sans bold
-  font_size: 35
-  x: 720
-  y: 80
-  width: 100
-  height: 100
-  justify: true
-  valign: top
-  align: left
-
 art:
   x: 125
   y: 100
@@ -89,13 +77,9 @@ art:
   align: center
   valign: middle
 
-badge:
-  x: 50
-  y: 50
-  width: 64
-  height: 64
-  align: center
-  valign: middle
+icon:
+  extends: 'art'
+  y: += 5
 
 Title:
   extends: AllText
@@ -103,7 +87,7 @@ Title:
   font_size: 35
   width: 500
   x: 220
-  y: 125
+  y: 140
 
 Theme:
   extends: Title
@@ -123,3 +107,26 @@ Tags:
   valign: middle
   align: center
   font_size: 31
+
+####
+
+Shield: # Not Used
+  extends: 'AllText'
+  font: ChunkFive Roman,Sans bold
+  font_size: 35
+  x: 720
+  y: 80
+  width: 100
+  height: 100
+  justify: true
+  valign: top
+  align: left
+
+badge:  # Not Used
+  x: 50
+  y: 50
+  width: 64
+  height: 64
+  align: center
+  valign: middle
+
