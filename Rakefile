@@ -10,6 +10,10 @@ task :deck do
   load 'deck.rb'
 end
 
+task :deck_color do
+  load 'deck_color.rb'
+end
+
 task :verso => [:deck, "_verso"] do
   Dir["_output/*.pdf"].each do |pdf|
     pages = `pdfinfo #{pdf} | awk '/Pages:/ {print $2}'`.to_i
