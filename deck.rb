@@ -21,7 +21,7 @@ end
 
 def save_home_made(file)
   cutmark 40, 40, 785, 1085, 10
-  save format: :pdf, file: file, width: "29.7cm", height: "21cm", trim: 40, gap: 0
+  save format: :pdf, file: file, width: "29.7cm", height: "21cm", trim: 40, trim_radius:25, gap: 0
 end
 
 def debug_grid()
@@ -54,7 +54,10 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout-cards-white.yml') do
   background color: 'white'
   rect layout: 'cut' # cut line as defined by TheGameCrafter
   rect layout: 'safe', stroke_color: Cards.map { |e| e["cardcolor"]} # safe zone as defined by TheGameCrafter
-  rect layout: 'Background', fill_color: Cards.map { |e| e["cardcolor"]}
+  rect layout: 'HeaderFlatBottom', fill_color: Cards.map { |e| e["cardcolor"]}
+  rect layout: 'HeaderRound', fill_color: Cards.map { |e| e["cardcolor"]}
+
+
 
   rect range: [0,3,6,9,12,15,18,21,24], layout: 'CardA', fill_color: Cards.map { |e| e["textcolor"]}
   rect range: [1,4,7,10,13,16,19,22,25], layout: 'CardB', fill_color: Cards.map { |e| e["textcolor"]}
