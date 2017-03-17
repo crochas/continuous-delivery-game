@@ -7,16 +7,11 @@ Copywright = "version: v#{Version}"
 
 def yaml2dataframe(yamldata)
   resultCards = Squib::DataFrame.new
-  # First Card
-  firstCard = yamldata[0]
-  firstCard.keys.each do |k|
-    resultCards[k] = []
-  end
 
-  yamldata.each do |card|
-    card.keys.each do |k|
-      resultCards[k] << card[k]
-    end
+  # Get keys :
+  card_keys = yamldata[0].keys
+  card_keys.each do |k|
+    resultCards[k] = yamldata.map { |e| e[k]}
   end
   return resultCards
 end
