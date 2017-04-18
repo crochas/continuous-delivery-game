@@ -1,9 +1,3 @@
-AllText:
-  font: ChunkFive Roman,Sans
-  align: center
-  color: '#F3EFE3'
-  font_size: 40
-
 # The "cut line", without rounded corners
 cut:
   x: 37.5
@@ -22,31 +16,102 @@ safe:
   stroke_width: 5
   radius: 25
 
+AllText:
+  font: ChunkFive Roman,Sans
+  align: center
+  color: '#F3EFE3'
+  font_size: 40
+
 Background:
-  x: 75
-  y: 75
-  width: 675
-  height: 975
+  extends: "safe"
+  height: 160
   crop_x: 20
   crop_y: 20
   fill_color: white
-  stroke_width: 5
-  radius: 25
+  stroke_width: 0
+
+HeaderRound:
+  extends: "Background"
+
+HeaderFlatBottom:
+  extends: "Background"
+  y: += 100
+  height: -= 100
+  radius: 0
+
+CardA:
+  # 675 -2*25 = 625 -> 200 - 12 - 200 - 12 - 200
+  x: 100
+  y: 80
+  stroke_color: white
+  width: 200
+  height: 20
+  radius: 5
+
+CardB:
+  extends: 'CardA'
+  x: += 212
+
+CardC:
+  extends: 'CardA'
+  x: += 425
 
 Description:
   extends: 'AllText'
   x: 115
-  y: 650
+  y: 350
   width: 600
-  height: 650
+  height: 600
   crop_x: 20
   crop_y: 20
-  justify: true
+  justify: false
   valign: top
-  align: left
-  font_size: 25
+  align: center
+  font_size: 31
+  color: 'black'
 
-Shield:
+art:
+  x: 125
+  y: 100
+  width: 120
+  height: 120
+  align: center
+  valign: middle
+
+icon:
+  extends: 'art'
+  y: += 5
+
+Title:
+  extends: AllText
+  font: ChunkFive Roman,Sans bold
+  font_size: 35
+  width: 500
+  x: 220
+  y: 140
+
+Theme:
+  extends: Title
+  font_size: 32
+  width: 700
+  x: 50
+  y: 280
+  color: 'black'
+
+Tags:
+  extends: 'AllText'
+  font: ChunkFive Roman,Sans italic
+  x: 115
+  y: 950
+  width: 620
+  height: 100
+  valign: middle
+  align: center
+  font_size: 31
+
+####
+
+Shield: # Not Used
   extends: 'AllText'
   font: ChunkFive Roman,Sans bold
   font_size: 35
@@ -58,15 +123,7 @@ Shield:
   valign: top
   align: left
 
-art:
-  x: 200
-  y: 150
-  width: 400
-  height: 400
-  align: center
-  valign: middle
-
-badge:
+badge:  # Not Used
   x: 50
   y: 50
   width: 64
@@ -74,20 +131,3 @@ badge:
   align: center
   valign: middle
 
-Title:
-  extends: AllText
-  font: ChunkFive Roman,Sans bold
-  font_size: 35
-  width: 700
-  x: 50
-  y: 85
-
-Theme:
-  extends: Title
-  width: 700
-  x: 50
-  y: 560
-
-Tags:
-  extends: AllText
-  y: 600
