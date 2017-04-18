@@ -65,5 +65,5 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
   png mask: Cards2.textcolor, file: Cards2.icon, layout: 'icon'
   text str: Cards2.tags, layout: 'Tags', color: Cards2.cardcolor
 
-  save_home_made "cards-white.pdf"
+  save_home_made "cards_fr.pdf"
 end
