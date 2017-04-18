@@ -87,9 +87,9 @@
   icon: icons/partnership.png
   theme: Business value model
   description_fr: |
-    Afin de maximiser la valeur délivrée, nous (business et IT) utilisons un format de conversation efficace et un vocabulaire communs lorsque priorisons les changements. La réflexion se base sur les objectifs métier, et intègre: coûts, bénéfices, risques, qualité, contexte…
+    Afin de maximiser la valeur délivrée, nous (business et IT) utilisons un format de conversation efficace et un vocabulaire communs lorsque priorisons les changements. La réflexion se base sur les objectifs métier, et intègre: contexte, coûts, bénéfices, risques, qualité…
   description_en: |
-    We (business and IT) use a unified vocabulary and framework when discussing priorisation, in order to maximize product value and customer experience impact. The reflection takes place on axes such as: costs, benefits, risks, quality, complexity or inaccuracy
+    In order to maximize delivered product value, we (business and IT) use an efficient framework and a unified vocabulary when discussing priorization. The reflection is based on business objectives, and incorporates: context, costs, benefits, risks, quality…
   tags: '#value #BVM'
   cardcolor: bizdev_partnership_color
   textcolor: light_text
