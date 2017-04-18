@@ -36,7 +36,7 @@
   cardPos: cardC
 
 - title: LEADERSHIP
-  icon: icons/people.png
+  icon: icons/leadership.png
   theme: Decentralized decisions
   description_fr: |
     Afin d'éviter les goulots d'etranglement et le contrôle centralisé, les ordres imposés par la hiérarchie sont limités. Les responsables expriment clairement les domaines où la décision est hiérarchique et ceux où elle laisse l'équipe autonome
@@ -48,7 +48,7 @@
   cardPos: cardA
 
 - title: LEADERSHIP
-  icon: icons/conversation.png
+  icon: icons/leadership.png
   theme: Space for sharing
   description_fr: |
     Les managers cherchent à faciliter la communication et les échanges, la montée en compétences des équipes (interne+externe). Du temps est consacré à l’échange et au partage : BBL, parcours pour les nouveaux arrivants, binomage avec mentor, mise en avant des membres les plus pédagogues, etc...
@@ -60,7 +60,7 @@
   cardPos: cardA
 
 - title: LEADERSHIP
-  icon: icons/why.png
+  icon: icons/leadership.png
   theme: Transparent leadership
   description_fr: |
     Plutôt que de prendre des décisions sur le « quoi » ou le « comment », les  managers s'attachent à exposer le « pourquoi » de façon transparente, de telle sorte que l'équipe puisse proposer les meilleures solutions avec confiance
@@ -96,7 +96,7 @@
   cardPos: cardA
 
 - title: PARTNERSHIP
-  icon: icons/slicing.png
+  icon: icons/partnership.png
   theme: Slicing
   description_fr: |
     Une attention particulière est portée sur les découpages, ce qui nous permet de livrer régulièrement des incréments apportant de la valeur aux clients. Tous les membres de l'équipe (PO compris) prennent part régulièrement à des sessions de découpage
@@ -108,7 +108,7 @@
   cardPos: cardA
 
 - title: COLLABORATION
-  icon: icons/why.png
+  icon: icons/collaboration.png
   theme: Focus on why
   description_fr: |
     Dans le cadre de la conversation entre métier et IT, on s'assure que la vision et les objectifs soient expliqués plutôt que les moyens. Cela encourage la discussion ouverte sur la valeur client et conduit à de meilleures alternatives
@@ -132,7 +132,7 @@
   cardPos: cardA
 
 - title: COLLABORATION
-  icon: icons/example.png
+  icon: icons/collaboration.png
   theme: Spec by example
   description_fr: |
     Specs, tests et guides utilisateurs sont un seul et même document, produit par l'ensemble des parties prenantes qui explorent les besoins métiers et prennent des exemples selon une démarche itérative. Cette documentation vivante supporte les tests automatiques et fait gagner du temps
@@ -144,7 +144,7 @@
   cardPos: cardA
 
 - title: CD PIPELINE
-  icon: icons/package.png
+  icon: icons/pipeline.png
   theme: Build & Package
   description_fr: |
     La construction et le packaging des artefacts sont réalisés par un automate. Ils sont déposés automatiquement sur un serveur de stockage sécurisé. La traçabilité est assurée
@@ -156,7 +156,7 @@
   cardPos: cardA
 
 - title: CD PIPELINE
-  icon: icons/push-button.png
+  icon: icons/pipeline.png
   theme: Provisionning & Deploy
   description_fr: |
     Afin de réduire les erreurs et le temps de déploiement, la mise à disposition d'environnements et le déploiement des livrables sont réalisés par un automate. Dev et Ops partagent les mêmes outils, qui sont utilisés depuis Dev jusque Prod
@@ -168,7 +168,7 @@
   cardPos: cardA
 
 - title: CD PIPELINE
-  icon: icons/automated.png
+  icon: icons/pipeline.png
   theme: Automated tests
   description_fr: |
     Afin de fournir un feedback rapide sur les développements et de réduire la durée de test malgré le vieillissement de l'application, les tests sont éxécutés de façon automatique et en continu grâce à des scripts automatisés
@@ -228,7 +228,7 @@
   cardPos: cardA
 
 - title: TESTING
-  icon: icons/review.png
+  icon: icons/testing.png
   theme: Tools
   description_fr: |
     Nous disposons d'un outillage de tests automatiques permettant de couvrir les tests unitaires, intégration et performance, et ceux-ci sont adaptés au contexte technique et fonctionnel
@@ -240,7 +240,7 @@
   cardPos: cardA
 
 - title: TESTING
-  icon: icons/tools.png
+  icon: icons/testing.png
   theme: Practices
   description_fr: |
     Nous connaissons les pratiques du TDD et BDD, et les typologies de tests (unitaire, intégration, E2E, performance). Nous choisissons et maintenons la meilleure technique en fonction du contexte
@@ -252,7 +252,7 @@
   cardPos: cardA
 
 - title: CODE QUALITY
-  icon: icons/book.png
+  icon: icons/quality.png
   theme: Practices
   description_fr: |
     Les développeurs maîtrisent les principes théoriques de la qualité de code : CleanCode, Legacy refactoring, SOLID. Les développeurs appliquent la Boyscout rule sur la base de code
@@ -264,7 +264,7 @@
   cardPos: cardA
 
 - title: CODE QUALITY
-  icon: icons/review.png
+  icon: icons/quality.png
   theme: Community
   description_fr: |
     Les développeurs font régulièrement des revues de code, lors desquelles ils peuvent échanger, confronter leurs points de vue, et faire évoluer les règles communes, qui sont formalisées et partagées de façon transparente et accessible
@@ -276,7 +276,7 @@
   cardPos: cardB
 
 - title: CODE QUALITY
-  icon: icons/tools.png
+  icon: icons/quality.png
   theme: Tools
   description_fr: |
     Des outils d'analyse de code permettent de mesurer la qualité de façon tangible, de pointer les violations de règles, et de constater l'évolution dans le temps des métriques
