@@ -8,7 +8,7 @@
     We as a team (including Ops, PO, and Helpdesk) work together to continuously improve our collaboration. For example, retrospectives are done regularly. Actions are followed up in a regular, measurable, and official way    
   tags: '#CI'
   cardcolor: agile_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: card
 
 - title: AGILE BASICS
@@ -20,7 +20,7 @@
     The Product Owner regularly updates an ordered and qualified backlog, which is shared with the team and stakeholders. Before development, we, the entire team slice epics into User Stories and work together on the acceptance criteria. There are a DoR and a DoD
   tags: '#grooming #backlog'
   cardcolor: agile_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardB
 
 - title: AGILE BASICS
@@ -32,115 +32,43 @@
     On all organizational levels, synchronization points are set up, known by all teammates and carried out, including: daily meetings, backlog grooming, inter-team sessions, demonstrations. These synchronizations are supported via clear efficient visual management
   tags: '#daily #demo #ritual'
   cardcolor: agile_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardC
 
-- title: LEADERSHIP
-  icon: icons/leadership.png
-  theme: Decentralized decisions
+- title: METROLOGY
+  icon: icons/metrics.png
+  theme: Business indicators
   description_fr: |
-    Afin d'éviter les goulots d'etranglement et le contrôle centralisé, les ordres imposés par la hiérarchie sont limités. Les responsables expriment clairement les domaines où la décision est hiérarchique et ceux où elle laisse l'équipe autonome
+    Afin de piloter son activité et améliorer son efficacité opérationnelle, le business dispose d'indicateurs métier dans des tableaux de bord, mis à jour de façon automatique
   description_en: |
-    In order to avoid bottlenecks and centralized control, mandates from the hierarchy are limited. Those responsible should clearly define areas where a decision can soley be taken by the hierarchy or is in team's hands
-  tags: '#delegationPoker'
-  cardcolor: leadership_color
+    Indicators linked to product delivered value are available in dashboards, which allow all actors to get feedback about their activity so we may adapt and enhance performance
+  tags: '#value'
+  cardcolor: metrology_color
   textcolor: light_text
   cardPos: cardA
 
-- title: LEADERSHIP
-  icon: icons/leadership.png
-  theme: Space for sharing
+- title: METROLOGY
+  icon: icons/metrics.png
+  theme: Strategy & tools
   description_fr: |
-    Les managers cherchent à faciliter la communication et les échanges, la montée en compétences des équipes (interne+externe). Du temps est consacré à l’échange et au partage : BBL, parcours pour les nouveaux arrivants, binomage avec mentor, mise en avant des membres les plus pédagogues, etc...
+    Nous (Business et IT) disposons d'une stratégie commune permettant d'améliorer notre capacité globale à mesurer grâce à des outils permettant d'exposer l'évolution d'indicateurs dans le temps et d'effectuer des corrélations
   description_en: |
-    Managers seek to facilitate communication, sharing of knowledge and crosstraining of teammates both  internal and external. Time is dedicated to sharing: BBL, onboarding of new arrivals, mentorship pairings, strengthened influence of most knowledgable colleagues, etc...
-  tags: '#BBL #hackathon'
-  cardcolor: leadership_color
+    We (Business and IT) rely on a common strategy helping us to improve our measurement capacity, thanks to tools supporting indicators time-based analysis and correlations
+  tags: '#datalake #ELK'
+  cardcolor: metrology_color
   textcolor: light_text
   cardPos: cardA
 
-- title: LEADERSHIP
-  icon: icons/leadership.png
-  theme: Transparent leadership
+- title: METROLOGY
+  icon: icons/metrics.png
+  theme: Usage tracking
   description_fr: |
-    Plutôt que de prendre des décisions sur le « quoi » ou le « comment », les  managers s'attachent à exposer le « pourquoi » de façon transparente, de telle sorte que l'équipe puisse proposer les meilleures solutions avec confiance
+    Afin de détecter des anomalies, monitorer l'activité et l'usage du produit, nous (tous les acteurs IT) avons accès à des tableaux de bord partagés mis à jour en temps réel
   description_en: |
-    Instead of making decisions on "what" and "how", the manager transparently communicates the "why" so that the team may propose the best solutions with confidence
-  tags: '#transparency'
-  cardcolor: leadership_color
+    In order to detect potential issues, monitor activity and product usage, we (all IT actors) have access to shared real-time dashboards
+  tags: '#monitoring'
+  cardcolor: metrology_color
   textcolor: light_text
-  cardPos: cardA
-
-- title: PARTNERSHIP
-  icon: icons/partnership.png
-  theme: PO onboarded
-  description_fr: |
-    Le Product Owner fait partie de l'équipe, il écoute les membres, il accepte de faire des expérimentations. Il contribue à l'amélioration continue en participant notamment aux rétrospectives
-  description_en: |
-    The Product Owner is part of the team, they listen to the members and accept to experiment. They contribute to continuous improvement and take part in retrospectives
-  tags: '#productOwner'
-  cardcolor: bizdev_partnership_color
-  textcolor: light_text
-  cardPos: cardA
-
-- title: PARTNERSHIP
-  icon: icons/partnership.png
-  theme: Business value model
-  description_fr: |
-    Afin de maximiser la valeur délivrée, nous (business et IT) utilisons un format de conversation efficace et un vocabulaire communs lorsque priorisons les changements. La réflexion se base sur les objectifs métier, et intègre: contexte, coûts, bénéfices, risques, qualité…
-  description_en: |
-    In order to maximize delivered product value, we (business and IT) use an efficient framework and a unified vocabulary when discussing priorization. The reflection is based on business objectives, and incorporates: context, costs, benefits, risks, quality…
-  tags: '#value #BVM'
-  cardcolor: bizdev_partnership_color
-  textcolor: light_text
-  cardPos: cardA
-
-- title: PARTNERSHIP
-  icon: icons/partnership.png
-  theme: Slicing
-  description_fr: |
-    Une attention particulière est portée sur les découpages, ce qui nous permet de livrer régulièrement des incréments apportant de la valeur aux clients. Tous les membres de l'équipe (PO compris) prennent part régulièrement à des sessions de découpage
-  description_en: |
-    A particular attention is given to slicing allowing us to deliver increments that bring value to the clients. All teammates (including the PO), regularly take part of slicing sessions
-  tags: '#storyMapping'
-  cardcolor: bizdev_partnership_color
-  textcolor: light_text
-  cardPos: cardA
-
-- title: COLLABORATION
-  icon: icons/collaboration.png
-  theme: Focus on why
-  description_fr: |
-    Dans le cadre de la conversation entre métier et IT, on s'assure que la vision et les objectifs soient expliqués plutôt que les moyens. Cela encourage la discussion ouverte sur la valeur client et conduit à de meilleures alternatives
-  description_en: |
-    During business/IT conversations, we ensure the vision and objectives are explained instead of the means. This encourages open discussion on the customer value and leads to better alternatives
-  tags: '#5WHYs'
-  cardcolor: collaboration_color
-  textcolor: dark_text
-  cardPos: cardA
-
-- title: COLLABORATION
-  icon: icons/collaboration.png
-  theme: Collective ownership
-  description_fr: |
-    En tant qu'équipe, nous portons une attention particulière à notre résilience. Nous sommes co-responsables et assurons la pérennité de nos pratiques en évitant de polariser rôles et connaissances sur une seule personne
-  description_en: |
-    We as a team particularly pays attention to our resilience. We are co-responsable and practice sustainability by avoiding concentrated roles and knowledge held by one single person
-  tags: '#noHero #pilar'
-  cardcolor: collaboration_color
-  textcolor: dark_text
-  cardPos: cardA
-
-- title: COLLABORATION
-  icon: icons/collaboration.png
-  theme: Spec by example
-  description_fr: |
-    Specs, tests et guides utilisateurs sont un seul et même document, produit par l'ensemble des parties prenantes qui explorent les besoins métiers et prennent des exemples selon une démarche itérative. Cette documentation vivante supporte les tests automatiques et fait gagner du temps
-  description_en: |
-    Specifications, tests and user guides are one single document, produced by BAs, developers, testers and support teammates who iteratively explore user needs and provide examples. This living documentation allows automated testing and saves time
-  tags: '#BDD'
-  cardcolor: collaboration_color
-  textcolor: dark_text
   cardPos: cardA
 
 - title: CD PIPELINE
@@ -179,42 +107,6 @@
   textcolor: light_text
   cardPos: cardA
 
-- title: METROLOGY
-  icon: icons/metrics.png
-  theme: Business indicators
-  description_fr: |
-    Afin de piloter son activité et améliorer son efficacité opérationnelle, le business dispose d'indicateurs métier dans des tableaux de bord, mis à jour de façon automatique
-  description_en: |
-    Indicators linked to product delivered value are available in dashboards, which allow all actors to get feedback about their activity so we may adapt and enhance performance
-  tags: '#value'
-  cardcolor: metrology_color
-  textcolor: light_text
-  cardPos: cardA
-
-- title: METROLOGY
-  icon: icons/metrics.png
-  theme: Strategy & tools
-  description_fr: |
-    Nous (Business et IT) disposons d'une stratégie commune permettant d'améliorer notre capacité globale à mesurer grâce à des outils permettant d'exposer l'évolution d'indicateurs dans le temps et d'effectuer des corrélations
-  description_en: |
-    We (Business and IT) rely on a common strategy helping us to improve our measurement capacity, thanks to tools supporting indicators time-based analysis and correlations
-  tags: '#datalake #ELK'
-  cardcolor: metrology_color
-  textcolor: light_text
-  cardPos: cardA
-
-- title: METROLOGY
-  icon: icons/metrics.png
-  theme: Usage tracking
-  description_fr: |
-    Afin de détecter des anomalies, monitorer l'activité et l'usage du produit, nous (tous les acteurs IT) avons accès à des tableaux de bord partagés mis à jour en temps réel
-  description_en: |
-    In order to detect potential issues, monitor activity and product usage, we (all IT actors) have access to shared real-time dashboards
-  tags: '#monitoring'
-  cardcolor: metrology_color
-  textcolor: light_text
-  cardPos: cardA
-
 - title: TESTING
   icon: icons/testing.png
   theme: Strategy
@@ -224,7 +116,7 @@
     We keep our testing strategy up-to-date, allowing everyone to have a somewhat clear view of objectives and means in order to ensure acceptance and product quality
   tags: '#testingStrategy'
   cardcolor: testing_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardA
 
 - title: TESTING
@@ -236,7 +128,7 @@
     We use automated testing tools dedicated to unit, integration and performance tests and these tools fit technical and functional context well
   tags: '#cucumber #gatling #xUnit'
   cardcolor: testing_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardA
 
 - title: TESTING
@@ -248,7 +140,7 @@
     We understand TDD and BDD practices, and tests typology (unit, integration, E2E, performance). We have implemented and maintain the best technique according to the context
   tags: '#TDD #BDD #unitTEST'
   cardcolor: testing_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardA
 
 - title: CODE QUALITY
@@ -286,6 +178,114 @@
   cardcolor: code_quality_color
   textcolor: dark_text
   cardPos: cardC
+
+- title: COLLABORATION
+  icon: icons/collaboration.png
+  theme: Focus on why
+  description_fr: |
+    Dans le cadre de la conversation entre métier et IT, on s'assure que la vision et les objectifs soient expliqués plutôt que les moyens. Cela encourage la discussion ouverte sur la valeur client et conduit à de meilleures alternatives
+  description_en: |
+    During business/IT conversations, we ensure the vision and objectives are explained instead of the means. This encourages open discussion on the customer value and leads to better alternatives
+  tags: '#5WHYs'
+  cardcolor: collaboration_color
+  textcolor: dark_text
+  cardPos: cardA
+
+- title: COLLABORATION
+  icon: icons/collaboration.png
+  theme: Collective ownership
+  description_fr: |
+    En tant qu'équipe, nous portons une attention particulière à notre résilience. Nous sommes co-responsables et assurons la pérennité de nos pratiques en évitant de polariser rôles et connaissances sur une seule personne
+  description_en: |
+    We as a team particularly pays attention to our resilience. We are co-responsable and practice sustainability by avoiding concentrated roles and knowledge held by one single person
+  tags: '#noHero #pilar'
+  cardcolor: collaboration_color
+  textcolor: dark_text
+  cardPos: cardA
+
+- title: COLLABORATION
+  icon: icons/collaboration.png
+  theme: Spec by example
+  description_fr: |
+    Specs, tests et guides utilisateurs sont un seul et même document, produit par l'ensemble des parties prenantes qui explorent les besoins métiers et prennent des exemples selon une démarche itérative. Cette documentation vivante supporte les tests automatiques et fait gagner du temps
+  description_en: |
+    Specifications, tests and user guides are one single document, produced by BAs, developers, testers and support teammates who iteratively explore user needs and provide examples. This living documentation allows automated testing and saves time
+  tags: '#BDD'
+  cardcolor: collaboration_color
+  textcolor: dark_text
+  cardPos: cardA
+
+- title: PARTNERSHIP
+  icon: icons/partnership.png
+  theme: PO onboarded
+  description_fr: |
+    Le Product Owner fait partie de l'équipe, il écoute les membres, il accepte de faire des expérimentations. Il contribue à l'amélioration continue en participant notamment aux rétrospectives
+  description_en: |
+    The Product Owner is part of the team, they listen to the members and accept to experiment. They contribute to continuous improvement and take part in retrospectives
+  tags: '#productOwner'
+  cardcolor: bizdev_partnership_color
+  textcolor: dark_text
+  cardPos: cardA
+
+- title: PARTNERSHIP
+  icon: icons/partnership.png
+  theme: Business value model
+  description_fr: |
+    Afin de maximiser la valeur délivrée, nous (business et IT) utilisons un format de conversation efficace et un vocabulaire communs lorsque priorisons les changements. La réflexion se base sur les objectifs métier, et intègre: contexte, coûts, bénéfices, risques, qualité…
+  description_en: |
+    In order to maximize delivered product value, we (business and IT) use an efficient framework and a unified vocabulary when discussing priorization. The reflection is based on business objectives, and incorporates: context, costs, benefits, risks, quality…
+  tags: '#value #BVM'
+  cardcolor: bizdev_partnership_color
+  textcolor: dark_text
+  cardPos: cardA
+
+- title: PARTNERSHIP
+  icon: icons/partnership.png
+  theme: Slicing
+  description_fr: |
+    Une attention particulière est portée sur les découpages, ce qui nous permet de livrer régulièrement des incréments apportant de la valeur aux clients. Tous les membres de l'équipe (PO compris) prennent part régulièrement à des sessions de découpage
+  description_en: |
+    A particular attention is given to slicing allowing us to deliver increments that bring value to the clients. All teammates (including the PO), regularly take part of slicing sessions
+  tags: '#storyMapping'
+  cardcolor: bizdev_partnership_color
+  textcolor: dark_text
+  cardPos: cardA
+
+- title: LEADERSHIP
+  icon: icons/leadership.png
+  theme: Decentralized decisions
+  description_fr: |
+    Afin d'éviter les goulots d'etranglement et le contrôle centralisé, les ordres imposés par la hiérarchie sont limités. Les responsables expriment clairement les domaines où la décision est hiérarchique et ceux où elle laisse l'équipe autonome
+  description_en: |
+    In order to avoid bottlenecks and centralized control, mandates from the hierarchy are limited. Those responsible should clearly define areas where a decision can soley be taken by the hierarchy or is in team's hands
+  tags: '#delegationPoker'
+  cardcolor: leadership_color
+  textcolor: dark_text
+  cardPos: cardA
+
+- title: LEADERSHIP
+  icon: icons/leadership.png
+  theme: Space for sharing
+  description_fr: |
+    Les managers cherchent à faciliter la communication et les échanges, la montée en compétences des équipes (interne+externe). Du temps est consacré à l’échange et au partage : BBL, parcours pour les nouveaux arrivants, binomage avec mentor, mise en avant des membres les plus pédagogues, etc...
+  description_en: |
+    Managers seek to facilitate communication, sharing of knowledge and crosstraining of teammates both  internal and external. Time is dedicated to sharing: BBL, onboarding of new arrivals, mentorship pairings, strengthened influence of most knowledgable colleagues, etc...
+  tags: '#BBL #hackathon'
+  cardcolor: leadership_color
+  textcolor: dark_text
+  cardPos: cardA
+
+- title: LEADERSHIP
+  icon: icons/leadership.png
+  theme: Transparent leadership
+  description_fr: |
+    Plutôt que de prendre des décisions sur le « quoi » ou le « comment », les  managers s'attachent à exposer le « pourquoi » de façon transparente, de telle sorte que l'équipe puisse proposer les meilleures solutions avec confiance
+  description_en: |
+    Instead of making decisions on "what" and "how", the manager transparently communicates the "why" so that the team may propose the best solutions with confidence
+  tags: '#transparency'
+  cardcolor: leadership_color
+  textcolor: dark_text
+  cardPos: cardA
 
 - title: PEOPLE
   icon: icons/people.png

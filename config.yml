@@ -14,27 +14,19 @@ antialias: best
 #  foo: '#abc'
 
 custom_colors:
-  agile_color: '#99CC33'
-  leadership_color: '#336600'
-  bizdev_partnership_color: '#0000CC'
-  collaboration_color: '#66CCFF'
-  continuous_delivery_color: '#FF0000'
-  metrology_color: '#330000'
-  testing_color: '#FF6600'
-  code_quality_color: '#CCCC00'
-  people_color: '#FFCC33'
+  agile_color: '#2B00B5'
+  metrology_color: '#8C00BE'
+  continuous_delivery_color: '#EB0085'
+  testing_color: '#FF0000'
+  code_quality_color: '#FF7F00'
+  collaboration_color: '#FFE800'
+  bizdev_partnership_color: '#AAFF00'
+  leadership_color: '#00C951'
+  people_color: '#0090FF'
 
   light_text: '#F3EFE3'
   medium_text: '#e6e6e6'
   dark_text: '#000000'
-
-#- Bleu (1) :
-#- Rouille (2) : C47401
-#- Rouge (3) : CD3349
-#- Violet (4) : 8F074B
-#- Vert (5) : 1E7C66
-#- Anthracite (6) : 3B3B3B
-
 
 
 warn_ellipsize: true
