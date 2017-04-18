@@ -71,7 +71,7 @@
   textcolor: light_text
   cardPos: cardA
 
-- title: BIZDEV PARTNERSHIP
+- title: PARTNERSHIP
   icon: icons/partnership.png
   theme: PO onboarded
   description_fr: |
@@ -83,11 +83,11 @@
   textcolor: light_text
   cardPos: cardA
 
-- title: BIZDEV PARTNERSHIP
+- title: PARTNERSHIP
   icon: icons/partnership.png
   theme: Business value model
   description_fr: |
-    Nous (business et IT) utilisons un vocabulaire et un format unifiés lorsque nous travaillons sur la priorisation, afin de maximiser la valeur du produit et les impacts sur l'expérience utilisateur. La réflexion porte sur des axes comme : les coûts, les bénéfices, le risque, la qualité, la compléxité ou l'imprécision
+    Nous (business et IT) utilisons un vocabulaire commun lorsque nous travaillons sur la priorisation, afin de maximiser la valeur du produit et les impacts sur l'expérience utilisateur. La réflexion porte sur des axes comme : les coûts, les bénéfices, le risque, la qualité, la compléxité ou l'imprécision
   description_en: |
     We (business and IT) use a unified vocabulary and framework when discussing priorisation, in order to maximize product value and customer experience impact. The reflection takes place on axes such as: costs, benefits, risks, quality, complexity or inaccuracy
   tags: '#value #BVM'
@@ -95,7 +95,7 @@
   textcolor: light_text
   cardPos: cardA
 
-- title: BIZDEV PARTNERSHIP
+- title: PARTNERSHIP
   icon: icons/slicing.png
   theme: Slicing
   description_fr: |
@@ -135,7 +135,7 @@
   icon: icons/example.png
   theme: Spec by example
   description_fr: |
-    Specs, tests et guides utilisateurs sont un seul et même document, produit par les BAs, devs, testeurs et support, qui explorent les besoins utilisateurs et fournissent des exemples selon une démarche itérative. Cette documentation vivante supporte les tests automatiques et fait gagner du temps
+    Specs, tests et guides utilisateurs sont un seul et même document, produit par l'ensemble des parties prenantes qui explorent les besoins métiers et prennent des exemples selon une démarche itérative. Cette documentation vivante supporte les tests automatiques et fait gagner du temps
   description_en: |
     Specifications, tests and user guides are one single document, produced by BAs, developers, testers and support teammates who iteratively explore user needs and provide examples. This living documentation allows automated testing and saves time
   tags: '#BDD'
