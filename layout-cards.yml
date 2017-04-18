@@ -90,6 +90,12 @@ Title:
   x: 220
   y: 140
 
+LTitle:
+  extends: Title
+  width: 600
+  height: 300
+  x: 125
+
 Theme:
   extends: Title
   font_size: 34

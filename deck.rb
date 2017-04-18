@@ -67,3 +67,20 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
 
   save_home_made "cards_fr.pdf"
 end
+
+LevelCards = YAML.load_file('data/levels.yml')
+LevelCards2 = yaml2dataframe(LevelCards)
+
+Squib::Deck.new(cards: LevelCards.size, layout: 'layout-cards.yml') do
+  background color: 'white'
+  rect layout: 'cut' # cut line as defined by TheGameCrafter
+  rect layout: 'safe', stroke_color: "black"
+  rect layout: 'HeaderFlatBottom', fill_color: "black"
+  rect layout: 'HeaderRound', fill_color: "black", height: 250
+
+  text str: LevelCards2.title, layout: 'LTitle', color: "white"
+  png file: LevelCards2.icon, x: 150, y: 340, width: 540, height: 690
+
+
+  save_home_made "levels.pdf"
+end
