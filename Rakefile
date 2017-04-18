@@ -1,6 +1,6 @@
 require 'squib'
 
-verso = 'ajisro-back.pdf'
+verso = 'back.pdf'
 
 task default: [:deck]
 

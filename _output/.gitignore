@@ -1,2 +1,3 @@
 # Ignore outputs in directory, but keep the directory to suppress warning
 *.png
+*.png
