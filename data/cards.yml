@@ -4,6 +4,8 @@
   theme: Continuous improvement
   description_fr: |
     En tant qu'équipe (y compris Ops, PO et support), nous travaillons ensemble à améliorer note fonctionnement en continu. Par exemple, des rétrospectives sont faites régulièrement. Les actions font l'objet d'un suivi régulier, mesurable et officiel
+  description_en: |
+    We as a team (including Ops, PO, and Helpdesk) work together to continuously improve our collaboration. For example, retrospectives are done regularly. Actions are followed up in a regular, measurable, and official way    
   tags: '#CI'
   cardcolor: agile_color
   textcolor: dark_text
@@ -14,6 +16,8 @@
   theme: Backlog management
   description_fr: |
     Le Product Owner met régulièrement à jour un backlog ordonné et qualifié, qui est partagé avec l'équipe et l'ensemble des parties prenantes. Avant le développement, nous, l'équipe en entier, découpons en User Stories, et travaillons ensemble sur les critères d'acceptance. Il existe une DoR et une DoD
+  description_en: |
+    The Product Owner regularly updates an ordered and qualified backlog, which is shared with the team and stakeholders. Before development, we, the entire team slice epics into User Stories and work together on the acceptance criteria. There are a DoR and a DoD
   tags: '#grooming #backlog'
   cardcolor: agile_color
   textcolor: dark_text
@@ -24,6 +28,8 @@
   theme: Synchronisation
   description_fr: |
     A chaque niveau de l'organisation, les points de synchronisation sont structurés et connus de tous : l'équipe fait des daily meetings, des backlog groomings, des sessions inter-équipes, des démonstrations, et s'appuient sur un visual management efficace et clair
+  description_en: |
+    On all organizational levels, synchronization points are set up, known by all teammates and carried out, including: daily meetings, backlog grooming, inter-team sessions, demonstrations. These synchronizations are supported via clear efficient visual management
   tags: '#daily #demo #ritual'
   cardcolor: agile_color
   textcolor: dark_text
@@ -34,6 +40,8 @@
   theme: Decentralized decisions
   description_fr: |
     Afin d'éviter les goulots d'etranglement et le contrôle centralisé, les ordres imposés par la hiérarchie sont limités. Les responsables expriment clairement les domaines où la décision est hiérarchique et ceux où elle laisse l'équipe autonome
+  description_en: |
+    In order to avoid bottlenecks and centralized control, mandates from the hierarchy are limited. Those responsible should clearly define areas where a decision can soley be taken by the hierarchy or is in team's hands
   tags: '#delegationPoker'
   cardcolor: leadership_color
   textcolor: light_text
@@ -44,6 +52,8 @@
   theme: Space for sharing
   description_fr: |
     Les managers cherchent à faciliter la communication et les échanges, la montée en compétences des équipes (interne+externe). Du temps est consacré à l’échange et au partage : BBL, parcours pour les nouveaux arrivants, binomage avec mentor, mise en avant des membres les plus pédagogues, etc...
+  description_en: |
+    Managers seek to facilitate communication, sharing of knowledge and crosstraining of teammates both  internal and external. Time is dedicated to sharing: BBL, onboarding of new arrivals, mentorship pairings, strengthened influence of most knowledgable colleagues, etc...
   tags: '#BBL #hackathon'
   cardcolor: leadership_color
   textcolor: light_text
@@ -54,6 +64,8 @@
   theme: Transparent leadership
   description_fr: |
     Plutôt que de prendre des décisions sur le « quoi » ou le « comment », les  managers s'attachent à exposer le « pourquoi » de façon transparente, de telle sorte que l'équipe puisse proposer les meilleures solutions avec confiance
+  description_en: |
+    Instead of making decisions on "what" and "how", the manager transparently communicates the "why" so that the team may propose the best solutions with confidence
   tags: '#transparency'
   cardcolor: leadership_color
   textcolor: light_text
@@ -64,6 +76,8 @@
   theme: PO onboarded
   description_fr: |
     Le Product Owner fait partie de l'équipe, il écoute les membres, il accepte de faire des expérimentations. Il contribue à l'amélioration continue en participant notamment aux rétrospectives
+  description_en: |
+    The Product Owner is part of the team, they listen to the members and accept to experiment. They contribute to continuous improvement and take part in retrospectives
   tags: '#productOwner'
   cardcolor: bizdev_partnership_color
   textcolor: light_text
@@ -74,6 +88,8 @@
   theme: Business value model
   description_fr: |
     Nous (business et IT) utilisons un vocabulaire et un format unifiés lorsque nous travaillons sur la priorisation, afin de maximiser la valeur du produit et les impacts sur l'expérience utilisateur. La réflexion porte sur des axes comme : les coûts, les bénéfices, le risque, la qualité, la compléxité ou l'imprécision
+  description_en: |
+    We (business and IT) use a unified vocabulary and framework when discussing priorisation, in order to maximize product value and customer experience impact. The reflection takes place on axes such as: costs, benefits, risks, quality, complexity or inaccuracy
   tags: '#value #BVM'
   cardcolor: bizdev_partnership_color
   textcolor: light_text
@@ -84,6 +100,8 @@
   theme: Slicing
   description_fr: |
     Une attention particulière est portée sur les découpages, ce qui nous permet de livrer régulièrement des incréments apportant de la valeur aux clients. Tous les membres de l'équipe (PO compris) prennent part régulièrement à des sessions de découpage
+  description_en: |
+    A particular attention is given to slicing allowing us to deliver increments that bring value to the clients. All teammates (including the PO), regularly take part of slicing sessions
   tags: '#storyMapping'
   cardcolor: bizdev_partnership_color
   textcolor: light_text
@@ -94,6 +112,8 @@
   theme: Focus on why
   description_fr: |
     Dans le cadre de la conversation entre métier et IT, on s'assure que la vision et les objectifs soient expliqués plutôt que les moyens. Cela encourage la discussion ouverte sur la valeur client et conduit à de meilleures alternatives
+  description_en: |
+    During business/IT conversations, we ensure the vision and objectives are explained instead of the means. This encourages open discussion on the customer value and leads to better alternatives
   tags: '#5WHYs'
   cardcolor: collaboration_color
   textcolor: dark_text
@@ -104,6 +124,8 @@
   theme: Collective ownership
   description_fr: |
     En tant qu'équipe, nous portons une attention particulière à notre résilience. Nous sommes co-responsables et assurons la pérennité de nos pratiques en évitant de polariser rôles et connaissances sur une seule personne
+  description_en: |
+    We as a team particularly pays attention to our resilience. We are co-responsable and practice sustainability by avoiding concentrated roles and knowledge held by one single person
   tags: '#noHero #pilar'
   cardcolor: collaboration_color
   textcolor: dark_text
@@ -114,6 +136,8 @@
   theme: Spec by example
   description_fr: |
     Specs, tests et guides utilisateurs sont un seul et même document, produit par les BAs, devs, testeurs et support, qui explorent les besoins utilisateurs et fournissent des exemples selon une démarche itérative. Cette documentation vivante supporte les tests automatiques et fait gagner du temps
+  description_en: |
+    Specifications, tests and user guides are one single document, produced by BAs, developers, testers and support teammates who iteratively explore user needs and provide examples. This living documentation allows automated testing and saves time
   tags: '#BDD'
   cardcolor: collaboration_color
   textcolor: dark_text
@@ -124,6 +148,8 @@
   theme: Build & Package
   description_fr: |
     La construction et le packaging des artefacts sont réalisés par un automate. Ils sont déposés automatiquement sur un serveur de stockage sécurisé. La traçabilité est assurée
+  description_en: |
+    Artifacts building and packaging are not man-made. They are uploaded automatically on a shared server, secured, and dedicated. Tracability is assured
   tags: '#continuousIntegration'
   cardcolor: continuous_delivery_color
   textcolor: light_text
@@ -134,6 +160,8 @@
   theme: Provisionning & Deploy
   description_fr: |
     Afin de réduire les erreurs et le temps de déploiement, la mise à disposition d'environnements et le déploiement des livrables sont réalisés par un automate. Dev et Ops partagent les mêmes outils, qui sont utilisés depuis Dev jusque Prod
+  description_en: |
+    To decrease error and deploy time, environment setup and artifact deployment are not man-made. Dev and Ops share the same tools, which are used from Dev to Prod environments
   tags: '#infraAsCode #IAAS'
   cardcolor: continuous_delivery_color
   textcolor: light_text
@@ -144,6 +172,8 @@
   theme: Automated tests
   description_fr: |
     Afin de fournir un feedback rapide sur les développements et de réduire la durée de test malgré le vieillissement de l'application, les tests sont éxécutés de façon automatique et en continu grâce à des scripts automatisés
+  description_en: |
+    In order to provide fast feedback on changes and minimalize testing time despite application maturation, tests are continously executed in an automated way thanks to scripts
   tags: '#fastFeedback'
   cardcolor: continuous_delivery_color
   textcolor: light_text
@@ -154,6 +184,8 @@
   theme: Business indicators
   description_fr: |
     Afin de piloter son activité et améliorer son efficacité opérationnelle, le business dispose d'indicateurs métier dans des tableaux de bord, mis à jour de façon automatique
+  description_en: |
+    Indicators linked to product delivered value are available in dashboards, which allow all actors to get feedback about their activity so we may adapt and enhance performance
   tags: '#value'
   cardcolor: metrology_color
   textcolor: light_text
@@ -164,6 +196,8 @@
   theme: Strategy & tools
   description_fr: |
     Nous (Business et IT) disposons d'une stratégie commune permettant d'améliorer notre capacité globale à mesurer grâce à des outils permettant d'exposer l'évolution d'indicateurs dans le temps et d'effectuer des corrélations
+  description_en: |
+    We (Business and IT) rely on a common strategy helping us to improve our measurement capacity, thanks to tools supporting indicators time-based analysis and correlations
   tags: '#datalake #ELK'
   cardcolor: metrology_color
   textcolor: light_text
@@ -174,6 +208,8 @@
   theme: Usage tracking
   description_fr: |
     Afin de détecter des anomalies, monitorer l'activité et l'usage du produit, nous (tous les acteurs IT) avons accès à des tableaux de bord partagés mis à jour en temps réel
+  description_en: |
+    In order to detect potential issues, monitor activity and product usage, we (all IT actors) have access to shared real-time dashboards
   tags: '#monitoring'
   cardcolor: metrology_color
   textcolor: light_text
@@ -184,6 +220,8 @@
   theme: Strategy
   description_fr: |
     Nous maintenons à jour notre stratégie de test, qui permet à tous de visualiser les enjeux et les moyens mis en œuvre pour assurer la qualité de l'acceptance du produit
+  description_en: |
+    We keep our testing strategy up-to-date, allowing everyone to have a somewhat clear view of objectives and means in order to ensure acceptance and product quality
   tags: '#testingStrategy'
   cardcolor: testing_color
   textcolor: dark_text
@@ -194,6 +232,8 @@
   theme: Tools
   description_fr: |
     Nous disposons d'un outillage de tests automatiques permettant de couvrir les tests unitaires, intégration et performance, et ceux-ci sont adaptés au contexte technique et fonctionnel
+  description_en: |
+    We use automated testing tools dedicated to unit, integration and performance tests and these tools fit technical and functional context well
   tags: '#cucumber #gatling #xUnit'
   cardcolor: testing_color
   textcolor: dark_text
@@ -204,6 +244,8 @@
   theme: Practices
   description_fr: |
     Nous connaissons les pratiques du TDD et BDD, et les typologies de tests (unitaire, intégration, E2E, performance). Nous choisissons et maintenons la meilleure technique en fonction du contexte
+  description_en: |
+    We understand TDD and BDD practices, and tests typology (unit, integration, E2E, performance). We have implemented and maintain the best technique according to the context
   tags: '#TDD #BDD #unitTEST'
   cardcolor: testing_color
   textcolor: dark_text
@@ -214,6 +256,8 @@
   theme: Practices
   description_fr: |
     Les développeurs maîtrisent les principes théoriques de la qualité de code : CleanCode, Legacy refactoring, SOLID. Les développeurs appliquent la Boyscout rule sur la base de code
+  description_en: |
+    The developers know theorical principles of code quality, such as CleanCode, Legacy refactoring, and SOLID. Developers apply the Boyscout rule on the code base
   tags: '#cleanCode #refactoring'
   cardcolor: code_quality_color
   textcolor: dark_text
@@ -224,6 +268,8 @@
   theme: Community
   description_fr: |
     Les développeurs font régulièrement des revues de code, lors desquelles ils peuvent échanger, confronter leurs points de vue, et faire évoluer les règles communes, qui sont formalisées et partagées de façon transparente et accessible
+  description_en: |
+    The developers regularly do code reviews, where they can share and challenge their points of view, and update common rules
   tags: '#codeReview #pair'
   cardcolor: code_quality_color
   textcolor: dark_text
@@ -234,6 +280,8 @@
   theme: Tools
   description_fr: |
     Des outils d'analyse de code permettent de mesurer la qualité de façon tangible, de pointer les violations de règles, et de constater l'évolution dans le temps des métriques
+  description_en: |
+    Code analysis tools are used to tangibly measure quality, detect rule violations, and compare the metrics on a temporal axis
   tags: '#sonar'
   cardcolor: code_quality_color
   textcolor: dark_text
@@ -244,6 +292,8 @@
   theme: Develop People
   description_fr: |
     La confiance fait partie intégrante du mode de fonctionnement. Le feedback constructif régulier se fait naturellement, sans crainte de jugement. Les compétences de chacun sont connues et des parcours de formation individuels existent
+  description_en: |
+    Trust takes place in the team's culture. Regular feedback is natural and constructive, without judgement. One's skills are known and  training paths tailored to the individual's needs exist
   tags: '#trust #training'
   cardcolor: people_color
   textcolor: dark_text
@@ -254,8 +304,10 @@
   theme: Respect
   description_fr: |
     L'expérimentation et le droit à l'erreur sont des principes forts de l'équipe. Les remontées de problèmes sont valorisées car source d'amélioration continue. On s'attache à un haut niveau d'exigence afin de fournir aux partenaires un produit de la meilleure qualité possible
+  description_en: |
+    Experimentation and right to failure are core principles of our team. Raising an issue is considered valueable as it drives continuous improvement. We adhere to a high standard inorder to provide the best quality of product possible to clients
   tags: '#rightForFailure'
-  cardcolo:r people_color
+  cardcolor: people_color
   textcolor: dark_text
   cardPos: cardB
 
@@ -264,6 +316,8 @@
   theme: Role modeling
   description_fr: |
     Des règles de vie / valeurs existent, sont construites et partagées par l'équipe (y compris manager). Plutôt que de donner des leçons, chacun s'efforce de montrer l'exemple
+  description_en: |
+    Team values and rules exist and are built and shared by the entire team (manager included). Instead of pointing fingers, we try to lead by example
   tags: '#leadByExample'
   cardcolor: people_color
   textcolor: dark_text
