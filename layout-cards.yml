@@ -92,7 +92,7 @@ Title:
 
 Theme:
   extends: Title
-  font_size: 32
+  font_size: 34
   width: 700
   x: 50
   y: 280
