@@ -93,7 +93,8 @@ Title:
 Theme:
   extends: Title
   font_size: 34
-  width: 700
+  fill_color: red
+  width: 720
   x: 50
   y: 280
   color: 'black'
