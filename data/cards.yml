@@ -87,7 +87,7 @@
   icon: icons/partnership.png
   theme: Business value model
   description_fr: |
-    Nous (business et IT) utilisons un vocabulaire commun lorsque nous travaillons sur la priorisation, afin de maximiser la valeur du produit et les impacts sur l'expérience utilisateur. La réflexion porte sur des axes comme : les coûts, les bénéfices, le risque, la qualité, la compléxité ou l'imprécision
+    Afin de maximiser la valeur délivrée, nous (business et IT) utilisons un format de conversation efficace et un vocabulaire communs lorsque priorisons les changements. La réflexion se base sur les objectifs métier, et intègre: coûts, bénéfices, risques, qualité, contexte…
   description_en: |
     We (business and IT) use a unified vocabulary and framework when discussing priorisation, in order to maximize product value and customer experience impact. The reflection takes place on axes such as: costs, benefits, risks, quality, complexity or inaccuracy
   tags: '#value #BVM'
