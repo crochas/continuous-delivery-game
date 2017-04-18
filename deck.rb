@@ -47,7 +47,7 @@ end
 Cards = YAML.load_file('data/cards.yml')
 Cards2 = yaml2dataframe(Cards)
 
-Squib::Deck.new(cards: Cards.size, layout: 'layout-cards-white.yml') do
+Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
   background color: 'white'
   rect layout: 'cut' # cut line as defined by TheGameCrafter
   rect layout: 'safe', stroke_color: Cards2.cardcolor # safe zone as defined by TheGameCrafter
@@ -61,7 +61,7 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout-cards-white.yml') do
     
   text str: Cards2.title, layout: 'Title', color: Cards.map { |e| e["textcolor"]}
   text str: Cards2.theme, layout: 'Theme'
-  text str: Cards2.description, layout: 'Description'
+  text str: Cards2.description_fr, layout: 'Description'
   png mask: Cards2.textcolor, file: Cards2.icon, layout: 'icon'
   text str: Cards2.tags, layout: 'Tags', color: Cards2.cardcolor
 
