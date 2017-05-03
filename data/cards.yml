@@ -3,13 +3,13 @@
   icon: icons/agile.png
   theme: Continuous improvement
   description_fr: |
-    En tant qu'équipe (y compris Ops, PO et support), nous travaillons ensemble à améliorer note fonctionnement en continu. Par exemple, des rétrospectives sont faites régulièrement. Les actions font l'objet d'un suivi régulier, mesurable et officiel
+    En tant qu'équipe (Ops et support compris), nous travaillons ensemble à améliorer note fonctionnement en continu. Par exemple, des rétrospectives sont faites régulièrement. Les actions font l'objet d'un suivi régulier, mesurable et officiel
   description_en: |
-    We as a team (including Ops, PO, and Helpdesk) work together to continuously improve our collaboration. For example, retrospectives are done regularly. Actions are followed up in a regular, measurable, and official way    
+    We as a team (including Ops and Helpdesk) work together to continuously improve our collaboration. For example, retrospectives are done regularly. Actions are followed up in a regular, measurable, and official way    
   tags: '#CI'
   cardcolor: agile_color
   textcolor: light_text
-  cardPos: card
+  cardPos: cardA
 
 - title: AGILE BASICS
   icon: icons/agile.png
@@ -27,7 +27,7 @@
   icon: icons/agile.png
   theme: Synchronisation
   description_fr: |
-    A chaque niveau de l'organisation, les points de synchronisation sont structurés et connus de tous : l'équipe fait des daily meetings, des backlog groomings, des sessions inter-équipes, des démonstrations, et s'appuient sur un visual management efficace et clair
+    A chaque niveau de l'organisation, les points de synchronisation sont structurés et connus de tous : l'équipe fait des daily meetings, des backlog groomings, des sessions inter-équipes, des démonstrations, et s'appuie sur un visual management efficace et clair
   description_en: |
     On all organizational levels, synchronization points are set up, known by all teammates and carried out, including: daily meetings, backlog grooming, inter-team sessions, demonstrations. These synchronizations are supported via clear efficient visual management
   tags: '#daily #demo #ritual'
@@ -57,7 +57,7 @@
   tags: '#datalake #ELK'
   cardcolor: metrology_color
   textcolor: light_text
-  cardPos: cardA
+  cardPos: cardB
 
 - title: METROLOGY
   icon: icons/metrics.png
@@ -69,7 +69,7 @@
   tags: '#monitoring'
   cardcolor: metrology_color
   textcolor: light_text
-  cardPos: cardA
+  cardPos: cardC
 
 - title: CD PIPELINE
   icon: icons/pipeline.png
@@ -93,7 +93,7 @@
   tags: '#infraAsCode #IAAS'
   cardcolor: continuous_delivery_color
   textcolor: light_text
-  cardPos: cardA
+  cardPos: cardB
 
 - title: CD PIPELINE
   icon: icons/pipeline.png
@@ -105,7 +105,7 @@
   tags: '#fastFeedback'
   cardcolor: continuous_delivery_color
   textcolor: light_text
-  cardPos: cardA
+  cardPos: cardC
 
 - title: TESTING
   icon: icons/testing.png
@@ -129,7 +129,7 @@
   tags: '#cucumber #gatling #xUnit'
   cardcolor: testing_color
   textcolor: light_text
-  cardPos: cardA
+  cardPos: cardB
 
 - title: TESTING
   icon: icons/testing.png
@@ -141,7 +141,7 @@
   tags: '#TDD #BDD #unitTEST'
   cardcolor: testing_color
   textcolor: light_text
-  cardPos: cardA
+  cardPos: cardC
 
 - title: CODE QUALITY
   icon: icons/quality.png
@@ -181,12 +181,12 @@
 
 - title: COLLABORATION
   icon: icons/collaboration.png
-  theme: Focus on why
+  theme: Transparency
   description_fr: |
-    Dans le cadre de la conversation entre métier et IT, on s'assure que la vision et les objectifs soient expliqués plutôt que les moyens. Cela encourage la discussion ouverte sur la valeur client et conduit à de meilleures alternatives
+    Afin d'éviter le piège des optimums locaux, nous nous attachons à exposer à nos partenarires nos objectifs, nos contraintes et nos priorités. La transparence réciproque permet d'assurer l'efficacité globale
   description_en: |
-    During business/IT conversations, we ensure the vision and objectives are explained instead of the means. This encourages open discussion on the customer value and leads to better alternatives
-  tags: '#5WHYs'
+    In order to avoid falling in the local optimum trap, we are committed to expose our objectives, constraints and priorities to our partners. Mutual transparency allows global efficiency
+  tags: '#oneTeam'
   cardcolor: collaboration_color
   textcolor: dark_text
   cardPos: cardA
@@ -198,10 +198,10 @@
     En tant qu'équipe, nous portons une attention particulière à notre résilience. Nous sommes co-responsables et assurons la pérennité de nos pratiques en évitant de polariser rôles et connaissances sur une seule personne
   description_en: |
     We as a team particularly pays attention to our resilience. We are co-responsable and practice sustainability by avoiding concentrated roles and knowledge held by one single person
-  tags: '#noHero #pilar'
+  tags: '#sharedResponsibility'
   cardcolor: collaboration_color
   textcolor: dark_text
-  cardPos: cardA
+  cardPos: cardB
 
 - title: COLLABORATION
   icon: icons/collaboration.png
@@ -213,7 +213,7 @@
   tags: '#BDD'
   cardcolor: collaboration_color
   textcolor: dark_text
-  cardPos: cardA
+  cardPos: cardC
 
 - title: PARTNERSHIP
   icon: icons/partnership.png
@@ -237,7 +237,7 @@
   tags: '#value #BVM'
   cardcolor: bizdev_partnership_color
   textcolor: dark_text
-  cardPos: cardA
+  cardPos: cardB
 
 - title: PARTNERSHIP
   icon: icons/partnership.png
@@ -249,7 +249,7 @@
   tags: '#storyMapping'
   cardcolor: bizdev_partnership_color
   textcolor: dark_text
-  cardPos: cardA
+  cardPos: cardC
 
 - title: LEADERSHIP
   icon: icons/leadership.png
@@ -273,19 +273,19 @@
   tags: '#BBL #hackathon'
   cardcolor: leadership_color
   textcolor: dark_text
-  cardPos: cardA
+  cardPos: cardB
 
 - title: LEADERSHIP
   icon: icons/leadership.png
-  theme: Transparent leadership
+  theme: Start with why
   description_fr: |
-    Plutôt que de prendre des décisions sur le « quoi » ou le « comment », les  managers s'attachent à exposer le « pourquoi » de façon transparente, de telle sorte que l'équipe puisse proposer les meilleures solutions avec confiance
+    Plutôt que de prendre des décisions sur le « quoi » ou le « comment », les managers exposent l'intention et la vision, de telle sorte que l'équipe puisse proposer les solutions en toute confiance
   description_en: |
-    Instead of making decisions on "what" and "how", the manager transparently communicates the "why" so that the team may propose the best solutions with confidence
-  tags: '#transparency'
+    Instead of making decisions on "what" and "how", the manager communicates the intention and the vision, so that the team may propose the solutions with confidence
+  tags: '#hostLeadership'
   cardcolor: leadership_color
   textcolor: dark_text
-  cardPos: cardA
+  cardPos: cardC
 
 - title: PEOPLE
   icon: icons/people.png
