@@ -14,15 +14,15 @@ antialias: best
 #  foo: '#abc'
 
 custom_colors:
-  agile_color: '#3B00F9'
-  metrology_color: '#8C00BE'
-  continuous_delivery_color: '#FF379D'
+  agile_color: '#0033CC'
+  metrology_color: '#7030A0'
+  continuous_delivery_color: '#FF66CC'
   testing_color: '#FF0000'
-  code_quality_color: '#FF9400'
-  collaboration_color: '#FFE800'
-  bizdev_partnership_color: '#D3FF00'
-  leadership_color: '#00C951'
-  people_color: '#00E0FF'
+  code_quality_color: '#FF9900'
+  collaboration_color: '#FFFF00'
+  bizdev_partnership_color: '#99CC00'
+  leadership_color: '#009242'
+  people_color: '#66CCFF'
 
   light_text: '#F3EFE3'
   medium_text: '#e6e6e6'
