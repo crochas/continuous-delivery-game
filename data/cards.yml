@@ -260,7 +260,7 @@
     In order to avoid bottlenecks and centralized control, mandates from the hierarchy are limited. Those responsible should clearly define areas where a decision can soley be taken by the hierarchy or is in team's hands
   tags: '#delegationPoker'
   cardcolor: leadership_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardA
 
 - title: LEADERSHIP
@@ -272,7 +272,7 @@
     Managers seek to facilitate communication, sharing of knowledge and crosstraining of teammates both  internal and external. Time is dedicated to sharing: BBL, onboarding of new arrivals, mentorship pairings, strengthened influence of most knowledgable colleagues, etc...
   tags: '#BBL #hackathon'
   cardcolor: leadership_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardB
 
 - title: LEADERSHIP
@@ -284,7 +284,7 @@
     Instead of making decisions on "what" and "how", the manager communicates the intention and the vision, so that the team may propose the solutions with confidence
   tags: '#hostLeadership'
   cardcolor: leadership_color
-  textcolor: dark_text
+  textcolor: light_text
   cardPos: cardC
 
 - title: PEOPLE
