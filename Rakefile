@@ -21,4 +21,5 @@ task :verso => [:deck, "_verso"] do
     shuffle = (1..pages).map {|i| "A#{i} B1"}.join(" ")
     sh "pdftk A=#{pdf} B=#{verso} cat #{shuffle} output _verso/#{name}-verso.pdf"
   end
+  sh "pdftk _verso/cards_fr-verso.pdf _verso/levels-verso.pdf cat output _verso/full.pdf"
 end
