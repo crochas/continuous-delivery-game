@@ -257,7 +257,7 @@
   description_fr: |
     Afin d'éviter les goulots d'etranglement et le contrôle centralisé, les ordres imposés par la hiérarchie sont limités. Les responsables expriment clairement les domaines où la décision est hiérarchique et ceux où elle laisse l'équipe autonome
   description_en: |
-    In order to avoid bottlenecks and centralized control, mandates from the hierarchy are limited. Those responsible should clearly define areas where a decision can soley be taken by the hierarchy or is in team's hands
+    In order to avoid bottlenecks and centralized control, mandates from the hierarchy are limited. Those responsible should clearly define areas where a decision can solely be taken by the hierarchy or is in team's hands
   tags: '#delegationPoker'
   cardcolor: leadership_color
   textcolor: light_text
@@ -305,7 +305,7 @@
   description_fr: |
     L'expérimentation et le droit à l'erreur sont des principes forts de l'équipe. Les remontées de problèmes sont valorisées car source d'amélioration continue. On s'attache à un haut niveau d'exigence afin de fournir aux partenaires un produit de la meilleure qualité possible
   description_en: |
-    Experimentation and right to failure are core principles of our team. Raising an issue is considered valueable as it drives continuous improvement. We adhere to a high standard inorder to provide the best quality of product possible to clients
+    Experimentation and right to failure are core principles of our team. Raising an issue is considered valueable as it drives continuous improvement. We adhere to a high standard in order to provide the best quality of product possible to clients
   tags: '#rightForFailure'
   cardcolor: people_color
   textcolor: dark_text
