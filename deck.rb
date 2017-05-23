@@ -44,29 +44,35 @@ def set_background()
     background color: 'black'
 end
 
+def make_cards(description, output_file)
+  Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
+    background color: 'white'
+    rect layout: 'cut' # cut line as defined by TheGameCrafter
+    rect layout: 'safe', stroke_color: Cards2.cardcolor # safe zone as defined by TheGameCrafter
+    rect layout: 'HeaderFlatBottom', fill_color: Cards2.cardcolor
+    rect layout: 'HeaderRound', fill_color: Cards2.cardcolor
+
+    card_marker = ['CardA', 'CardB', 'CardC']
+    0.upto(Cards.size-1) do |n|
+      rect range: n, layout: card_marker[n % 3], fill_color: Cards2.textcolor, stroke_color: Cards2.textcolor
+    end
+    
+    text str: Cards2.title, layout: 'Title', color: Cards.map { |e| e["textcolor"]}
+    text str: Cards2.theme, layout: 'Theme'
+    text str: description, layout: 'Description'
+    png mask: Cards2.textcolor, file: Cards2.icon, layout: 'icon'
+    text str: Cards2.tags, layout: 'Tags', color: Cards2.cardcolor
+
+    save_home_made output_file
+  end
+end
+
+
 Cards = YAML.load_file('data/cards.yml')
 Cards2 = yaml2dataframe(Cards)
 
-Squib::Deck.new(cards: Cards.size, layout: 'layout-cards.yml') do
-  background color: 'white'
-  rect layout: 'cut' # cut line as defined by TheGameCrafter
-  rect layout: 'safe', stroke_color: Cards2.cardcolor # safe zone as defined by TheGameCrafter
-  rect layout: 'HeaderFlatBottom', fill_color: Cards2.cardcolor
-  rect layout: 'HeaderRound', fill_color: Cards2.cardcolor
-
-  card_marker = ['CardA', 'CardB', 'CardC']
-  0.upto(Cards.size-1) do |n|
-    rect range: n, layout: card_marker[n % 3], fill_color: Cards2.textcolor, stroke_color: Cards2.textcolor
-  end
-    
-  text str: Cards2.title, layout: 'Title', color: Cards.map { |e| e["textcolor"]}
-  text str: Cards2.theme, layout: 'Theme'
-  text str: Cards2.description_fr, layout: 'Description'
-  png mask: Cards2.textcolor, file: Cards2.icon, layout: 'icon'
-  text str: Cards2.tags, layout: 'Tags', color: Cards2.cardcolor
-
-  save_home_made "cards_fr.pdf"
-end
+make_cards(Cards2.description_fr, "cards_fr.pdf")
+make_cards(Cards2.description_en, "cards_en.pdf")
 
 LevelCards = YAML.load_file('data/levels.yml')
 LevelCards2 = yaml2dataframe(LevelCards)
