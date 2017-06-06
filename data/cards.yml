@@ -183,7 +183,7 @@
   icon: icons/collaboration.png
   theme: Transparency
   description_fr: |
-    Afin d'éviter le piège des optimums locaux, nous nous attachons à exposer à nos partenarires nos objectifs, nos contraintes et nos priorités. La transparence réciproque permet d'assurer l'efficacité globale
+    Afin d'éviter le piège des optimums locaux, nous nous attachons à exposer à nos partenaires nos objectifs, nos contraintes et nos priorités. La transparence réciproque permet d'assurer l'efficacité globale
   description_en: |
     In order to avoid falling in the local optimum trap, we are committed to expose our objectives, constraints and priorities to our partners. Mutual transparency allows global efficiency
   tags: '#oneTeam'
@@ -231,7 +231,7 @@
   icon: icons/partnership.png
   theme: Business value model
   description_fr: |
-    Afin de maximiser la valeur délivrée, nous (business et IT) utilisons un format de conversation efficace et un vocabulaire communs lorsque priorisons les changements. La réflexion se base sur les objectifs métier, et intègre: contexte, coûts, bénéfices, risques, qualité…
+    Afin de maximiser la valeur délivrée, nous (business et IT) utilisons un format de conversation efficace et un vocabulaire communs lorsque nous priorisons les changements. La réflexion se base sur les objectifs métier, et intègre: contexte, coûts, bénéfices, risques, qualité…
   description_en: |
     In order to maximize delivered product value, we (business and IT) use an efficient framework and a unified vocabulary when discussing priorization. The reflection is based on business objectives, and incorporates: context, costs, benefits, risks, quality…
   tags: '#value #BVM'
