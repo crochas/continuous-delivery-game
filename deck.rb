@@ -61,7 +61,7 @@ def make_cards(description, output_file)
     text str: Cards2.theme, layout: 'Theme'
     text str: description, layout: 'Description'
     png mask: Cards2.textcolor, file: Cards2.icon, layout: 'icon'
-    text str: Cards2.tags, layout: 'Tags', color: Cards2.cardcolor
+    text str: Cards2.tags, layout: 'Tags', color: 'black'
 
     save_home_made output_file
   end
