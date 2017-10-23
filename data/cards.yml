@@ -114,7 +114,6 @@
     Nous maintenons à jour notre stratégie de test, qui permet à tous de visualiser les enjeux et les moyens mis en œuvre pour assurer la qualité de l'acceptance du produit
   description_en: |
     We keep our testing strategy up-to-date, allowing everyone to have a somewhat clear view of objectives and means in order to ensure acceptance and product quality
-
   tags: '#testPyramid'
   cardcolor: testing_color
   textcolor: light_text
@@ -127,7 +126,6 @@
     Nous disposons de frameworks et outils de tests permettant de répondre aux différents types de tests, et ceux-ci sont adaptés au contexte technique et fonctionnel
   description_en: |
     We have testing tools and frameworks designed for all kinds of tests, and those fit our technical and functional context
-
   tags: '#unitTest #intTest #perf'
   cardcolor: testing_color
   textcolor: light_text
@@ -137,7 +135,7 @@
   icon: icons/testing.png
   theme: Practices
   description_fr: |
-   Nous connaissons les pratiques du TDD et BDD, et les typologies de tests (unitaire, intégration, E2E, performance). Nous choisissons et maintenons la meilleure technique en fonction du contexte
+    Nous connaissons les pratiques du TDD et BDD, et les typologies de tests (unitaire, intégration, E2E, performance). Nous choisissons et maintenons la meilleure technique en fonction du contexte
   description_en: |
     We understand TDD and BDD practices, and tests typology (unit, integration, E2E, performance). We have implemented and maintain the best technique according to the context
   tags: '#TDD #BDD #testFirst'
@@ -187,7 +185,7 @@
   description_fr: |
     Afin d'avoir une efficacité globale, nous nous attachons à exposer à nos partenaires nos objectifs, nos contraintes et nos priorités. La transparence réciproque permet d'assurer une meilleure collaboration
   description_en: |
-   In order to spread our efficiency, we are committed to expose our objectives, constraints and priorities to our partners. Mutual transparency allows better collaboration
+   In order to globalize the efficiency, we are committed to expose our objectives, constraints and priorities to our partners. Mutual transparency allows better collaboration
   tags: '#systemThinking'
   cardcolor: collaboration_color
   textcolor: dark_text
@@ -200,7 +198,6 @@
     En tant qu'équipe, nous portons une attention particulière à notre résilience. Nous sommes co-responsables et assurons la pérennité de nos pratiques en évitant de polariser rôles et connaissances sur une seule personne
   description_en: |
     We as a team particularly pays attention to our resilience. We are co-responsable and practice sustainability by avoiding concentrated roles and knowledge held by one single person
-
   tags: '#oneTeam #noHero'
   cardcolor: collaboration_color
   textcolor: dark_text
@@ -213,7 +210,7 @@
     Specs, tests et guides utilisateurs sont un seul et même document, produit par l'ensemble des parties prenantes qui explorent les besoins métiers et prennent des exemples selon une démarche itérative. Cette documentation vivante supporte les tests automatiques et fait gagner du temps
   description_en: |
     Specifications, tests and user guides are one single document, produced by BAs, developers, testers and support teammates who iteratively explore user needs and provide examples. This living documentation allows automated testing and saves time
-  tags: '#BDD #livingDoc'
+  tags: '#BDD #executableDoc'
   cardcolor: collaboration_color
   textcolor: dark_text
   cardPos: cardC
