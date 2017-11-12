@@ -121,7 +121,7 @@
 
 - title: TESTING
   icon: icons/testing.png
-  theme: Fwks & Tools
+  theme: Frameworks & Tools
   description_fr: |
     Nous disposons de frameworks et outils de tests permettant de répondre aux différents types de tests, et ceux-ci sont adaptés au contexte technique et fonctionnel
   description_en: |
@@ -197,7 +197,7 @@
   description_fr: |
     En tant qu'équipe, nous portons une attention particulière à notre résilience. Nous sommes co-responsables et assurons la pérennité de nos pratiques en évitant de polariser rôles et connaissances sur une seule personne
   description_en: |
-    We as a team particularly pays attention to our resilience. We are co-responsable and practice sustainability by avoiding concentrated roles and knowledge held by one single person
+    We as a team particularly pays attention to our resilience. We are co-responsible and practice sustainability by avoiding concentrated roles and knowledge held by one single person
   tags: '#oneTeam #noHero'
   cardcolor: collaboration_color
   textcolor: dark_text
@@ -233,7 +233,7 @@
   description_fr: |
     Afin de maximiser la valeur délivrée, nous (business et IT) utilisons un format de conversation efficace et un vocabulaire communs lorsque nous priorisons les changements. La réflexion se base sur les objectifs métier, et intègre: contexte, coûts, bénéfices, risques, qualité…
   description_en: |
-    In order to maximize delivered product value, we (business and IT) use an efficient framework and a unified vocabulary when discussing priorization. The reflection is based on business objectives, and incorporates: context, costs, benefits, risks, quality…
+    In order to maximize delivered product value, we (business and IT) use an efficient framework and a unified vocabulary when discussing prioritization. The reflection is based on business objectives, and incorporates: context, costs, benefits, risks, quality…
   tags: '#value #BVM'
   cardcolor: bizdev_partnership_color
   textcolor: dark_text
