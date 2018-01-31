@@ -1,6 +1,6 @@
 ---
 - title: AGILE BASICS
-  icon: icons/agile.png
+  icon: icons/agile.svg
   theme: Continuous improvement
   description_fr: |
     En tant qu'équipe (Ops et support compris), nous travaillons ensemble à améliorer notre fonctionnement en continu. Par exemple, des rétrospectives sont faites régulièrement. Les actions font l'objet d'un suivi régulier, mesurable et officiel
@@ -9,10 +9,11 @@
   tags: '#CI'
   cardcolor: agile_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardA
 
 - title: AGILE BASICS
-  icon: icons/agile.png
+  icon: icons/agile.svg
   theme: Backlog management
   description_fr: |
     Le Product Owner met régulièrement à jour un backlog ordonné et qualifié, qui est partagé avec l'équipe et l'ensemble des parties prenantes. Avant le développement, nous, l'équipe en entier, découpons en User Stories, et travaillons ensemble sur les critères d'acceptance. Il existe une DoR et une DoD
@@ -21,10 +22,11 @@
   tags: '#grooming #backlog'
   cardcolor: agile_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardB
 
 - title: AGILE BASICS
-  icon: icons/agile.png
+  icon: icons/agile.svg
   theme: Synchronisation
   description_fr: |
     A chaque niveau de l'organisation, les points de synchronisation sont structurés et connus de tous : l'équipe fait des daily meetings, des backlog groomings, des sessions inter-équipes, des démonstrations, et s'appuie sur un visual management efficace et clair
@@ -33,10 +35,11 @@
   tags: '#daily #demo #ritual'
   cardcolor: agile_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardC
 
 - title: METROLOGY
-  icon: icons/metrics.png
+  icon: icons/metrics.svg
   theme: Business indicators
   description_fr: |
     Afin de piloter son activité et améliorer son efficacité opérationnelle, le business dispose d'indicateurs métier dans des tableaux de bord, mis à jour de façon automatique
@@ -45,10 +48,11 @@
   tags: '#value'
   cardcolor: metrology_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardA
 
 - title: METROLOGY
-  icon: icons/metrics.png
+  icon: icons/metrics.svg
   theme: Strategy & tools
   description_fr: |
     Nous (Business et IT) disposons d'une stratégie commune permettant d'améliorer notre capacité globale à mesurer grâce à des outils permettant d'exposer l'évolution d'indicateurs dans le temps et d'effectuer des corrélations
@@ -57,10 +61,11 @@
   tags: '#datalake #ELK'
   cardcolor: metrology_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardB
 
 - title: METROLOGY
-  icon: icons/metrics.png
+  icon: icons/metrics.svg
   theme: Usage tracking
   description_fr: |
     Afin de détecter des anomalies, monitorer l'activité et l'usage du produit, nous (tous les acteurs IT) avons accès à des tableaux de bord partagés mis à jour en temps réel
@@ -69,10 +74,11 @@
   tags: '#monitoring'
   cardcolor: metrology_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardC
 
 - title: CD PIPELINE
-  icon: icons/pipeline.png
+  icon: icons/pipeline.svg
   theme: Build & Package
   description_fr: |
     La construction et le packaging des artefacts sont réalisés par un automate. Ils sont déposés automatiquement sur un serveur de stockage sécurisé. La traçabilité est assurée
@@ -81,10 +87,11 @@
   tags: '#continuousIntegration'
   cardcolor: continuous_delivery_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardA
 
 - title: CD PIPELINE
-  icon: icons/pipeline.png
+  icon: icons/pipeline.svg
   theme: Provisionning & Deploy
   description_fr: |
     Afin de réduire les erreurs et le temps de déploiement, la mise à disposition d'environnements et le déploiement des livrables sont réalisés par un automate. Dev et Ops partagent les mêmes outils, qui sont utilisés depuis Dev jusque Prod
@@ -93,10 +100,11 @@
   tags: '#infraAsCode #IAAS'
   cardcolor: continuous_delivery_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardB
 
 - title: CD PIPELINE
-  icon: icons/pipeline.png
+  icon: icons/pipeline.svg
   theme: Continuous tests
   description_fr: |
     Afin de fournir un feedback rapide sur les développements et de réduire la durée de test malgré l’augmentation de la base de code de l'application, les tests sont déclenchés automatiquement dans l'usine logicielle
@@ -105,10 +113,11 @@
   tags: '#fastFeedback #testAuto'
   cardcolor: continuous_delivery_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardC
 
 - title: TESTING
-  icon: icons/testing.png
+  icon: icons/testing.svg
   theme: Strategy
   description_fr: |
     Nous maintenons à jour notre stratégie de test, qui permet à tous de visualiser les enjeux et les moyens mis en œuvre pour assurer la qualité de l'acceptance du produit
@@ -117,10 +126,11 @@
   tags: '#testPyramid'
   cardcolor: testing_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardA
 
 - title: TESTING
-  icon: icons/testing.png
+  icon: icons/testing.svg
   theme: Frameworks & Tools
   description_fr: |
     Nous disposons de frameworks et outils de tests permettant de répondre aux différents types de tests, et ceux-ci sont adaptés au contexte technique et fonctionnel
@@ -129,10 +139,11 @@
   tags: '#unitTest #intTest #perf'
   cardcolor: testing_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardB
 
 - title: TESTING
-  icon: icons/testing.png
+  icon: icons/testing.svg
   theme: Practices
   description_fr: |
     Nous connaissons les pratiques du TDD et BDD, et les typologies de tests (unitaire, intégration, E2E, performance). Nous choisissons et maintenons la meilleure technique en fonction du contexte
@@ -141,10 +152,11 @@
   tags: '#TDD #BDD #testFirst'
   cardcolor: testing_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardC
 
 - title: CODE QUALITY
-  icon: icons/quality.png
+  icon: icons/quality.svg
   theme: Practices
   description_fr: |
     Les développeurs maîtrisent les principes théoriques de la qualité de code : CleanCode, Legacy refactoring, SOLID. Les développeurs appliquent la Boyscout rule sur la base de code
@@ -153,10 +165,11 @@
   tags: '#cleanCode #refactoring'
   cardcolor: code_quality_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardA
 
 - title: CODE QUALITY
-  icon: icons/quality.png
+  icon: icons/quality.svg
   theme: Community
   description_fr: |
     Les développeurs font régulièrement des revues de code, lors desquelles ils peuvent échanger, confronter leurs points de vue, et faire évoluer les règles communes, qui sont formalisées et partagées de façon transparente et accessible
@@ -165,10 +178,11 @@
   tags: '#codeReview #pair'
   cardcolor: code_quality_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardB
 
 - title: CODE QUALITY
-  icon: icons/quality.png
+  icon: icons/quality.svg
   theme: Tools
   description_fr: |
     Des outils d'analyse de code permettent de mesurer la qualité de façon tangible, de pointer les violations de règles, et de constater l'évolution dans le temps des métriques
@@ -177,10 +191,11 @@
   tags: '#sonar'
   cardcolor: code_quality_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardC
 
 - title: COLLABORATION
-  icon: icons/collaboration.png
+  icon: icons/collaboration.svg
   theme: Transparency
   description_fr: |
     Afin d'avoir une efficacité globale, nous nous attachons à exposer à nos partenaires nos objectifs, nos contraintes et nos priorités. La transparence réciproque permet d'assurer une meilleure collaboration
@@ -189,10 +204,11 @@
   tags: '#systemThinking'
   cardcolor: collaboration_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardA
 
 - title: COLLABORATION
-  icon: icons/collaboration.png
+  icon: icons/collaboration.svg
   theme: Collective ownership
   description_fr: |
     En tant qu'équipe, nous portons une attention particulière à notre résilience. Nous sommes co-responsables et assurons la pérennité de nos pratiques en évitant de polariser rôles et connaissances sur une seule personne
@@ -201,10 +217,11 @@
   tags: '#oneTeam #noHero'
   cardcolor: collaboration_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardB
 
 - title: COLLABORATION
-  icon: icons/collaboration.png
+  icon: icons/collaboration.svg
   theme: Spec by example
   description_fr: |
     Specs, tests et guides utilisateurs sont un seul et même document, produit par l'ensemble des parties prenantes qui explorent les besoins métiers et prennent des exemples selon une démarche itérative. Cette documentation vivante supporte les tests automatiques et fait gagner du temps
@@ -213,10 +230,11 @@
   tags: '#BDD #executableDoc'
   cardcolor: collaboration_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardC
 
 - title: PARTNERSHIP
-  icon: icons/partnership.png
+  icon: icons/partnership.svg
   theme: PO onboarded
   description_fr: |
     Le Product Owner fait partie de l'équipe, il écoute les membres, il accepte de faire des expérimentations. Il contribue à l'amélioration continue en participant notamment aux rétrospectives
@@ -225,10 +243,11 @@
   tags: '#productOwnership'
   cardcolor: bizdev_partnership_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardA
 
 - title: PARTNERSHIP
-  icon: icons/partnership.png
+  icon: icons/partnership.svg
   theme: Business value model
   description_fr: |
     Afin de maximiser la valeur délivrée, nous (business et IT) utilisons un format de conversation efficace et un vocabulaire communs lorsque nous priorisons les changements. La réflexion se base sur les objectifs métier, et intègre: contexte, coûts, bénéfices, risques, qualité…
@@ -237,10 +256,11 @@
   tags: '#value #BVM'
   cardcolor: bizdev_partnership_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardB
 
 - title: PARTNERSHIP
-  icon: icons/partnership.png
+  icon: icons/partnership.svg
   theme: Slicing
   description_fr: |
     Une attention particulière est portée sur les découpages, ce qui nous permet de livrer régulièrement des incréments apportant de la valeur aux clients. Tous les membres de l'équipe (PO compris) prennent part régulièrement à des sessions de découpage
@@ -249,10 +269,11 @@
   tags: '#storyMapping'
   cardcolor: bizdev_partnership_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardC
 
 - title: LEADERSHIP
-  icon: icons/leadership.png
+  icon: icons/leadership.svg
   theme: Decentralized decisions
   description_fr: |
     Afin d'éviter les goulots d'etranglement et le contrôle centralisé, les ordres imposés par la hiérarchie sont limités. Les responsables expriment clairement les domaines où la décision est hiérarchique et ceux où elle laisse l'équipe autonome
@@ -261,10 +282,11 @@
   tags: '#delegationPoker'
   cardcolor: leadership_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardA
 
 - title: LEADERSHIP
-  icon: icons/leadership.png
+  icon: icons/leadership.svg
   theme: Space for sharing
   description_fr: |
     Les managers cherchent à faciliter la communication et les échanges, la montée en compétences des équipes (interne+externe). Du temps est consacré à l’échange et au partage : BBL, parcours pour les nouveaux arrivants, binomage avec mentor, mise en avant des membres les plus pédagogues, etc...
@@ -273,10 +295,11 @@
   tags: '#BBL #hackathon'
   cardcolor: leadership_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardB
 
 - title: LEADERSHIP
-  icon: icons/leadership.png
+  icon: icons/leadership.svg
   theme: Start with why
   description_fr: |
     Plutôt que de prendre des décisions sur le « quoi » ou le « comment », les managers exposent l'intention et la vision, de telle sorte que l'équipe puisse proposer les solutions en toute confiance
@@ -285,10 +308,11 @@
   tags: '#hostLeadership'
   cardcolor: leadership_color
   textcolor: light_text
+  iconcolor: #000000
   cardPos: cardC
 
 - title: PEOPLE
-  icon: icons/people.png
+  icon: icons/people.svg
   theme: Develop People
   description_fr: |
     La confiance fait partie intégrante du mode de fonctionnement. Le feedback constructif régulier se fait naturellement, sans crainte de jugement. Les compétences de chacun sont connues et des parcours de formation individuels existent
@@ -297,10 +321,11 @@
   tags: '#trust #training'
   cardcolor: people_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardA
 
 - title: PEOPLE
-  icon: icons/people.png
+  icon: icons/people.svg
   theme: Respect
   description_fr: |
     L'expérimentation et le droit à l'erreur sont des principes forts de l'équipe. Les remontées de problèmes sont valorisées car source d'amélioration continue. On s'attache à un haut niveau d'exigence afin de fournir aux partenaires un produit de la meilleure qualité possible
@@ -309,10 +334,11 @@
   tags: '#rightForFailure'
   cardcolor: people_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardB
 
 - title: PEOPLE
-  icon: icons/people.png
+  icon: icons/people.svg
   theme: Role modeling
   description_fr: |
     Des règles de vie / valeurs existent, sont construites et partagées par l'équipe (y compris manager). Plutôt que de donner des leçons, chacun s'efforce de montrer l'exemple
@@ -321,4 +347,5 @@
   tags: '#leadByExample'
   cardcolor: people_color
   textcolor: dark_text
+  iconcolor: black
   cardPos: cardC

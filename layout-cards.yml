@@ -73,7 +73,7 @@ Description:
 art:
   x: 125
   y: 100
-  width: 120
+  width: :scale
   height: 120
   align: center
   valign: middle

@@ -60,7 +60,13 @@ def make_cards(description, output_file)
     text str: Cards2.title, layout: 'Title', color: Cards.map { |e| e["textcolor"]}
     text str: Cards2.theme, layout: 'Theme'
     text str: description, layout: 'Description'
-    png mask: Cards2.textcolor, file: Cards2.icon, layout: 'icon'
+    # print 'color : %s', Cards2.textcolor
+    # print 'converted : ', Cards.map { |e| e["textcolor"]}
+    # if Cards2.textcolor == "dark_text"
+    #   svg mask: '#000000', file: Cards2.icon, layout: 'icon'
+    # else
+      svg mask: Cards2.iconcolor, file: Cards2.icon, layout: 'icon'
+    # end
     text str: Cards2.tags, layout: 'Tags', color: 'black'
 
     save_home_made output_file
@@ -72,28 +78,28 @@ Cards = YAML.load_file('data/cards.yml')
 Cards2 = yaml2dataframe(Cards)
 
 make_cards(Cards2.description_fr, "cards_fr.pdf")
-make_cards(Cards2.description_en, "cards_en.pdf")
+# make_cards(Cards2.description_en, "cards_en.pdf")
 
 # levels
 LevelCards = YAML.load_file('data/levels.yml')
 LevelCards2 = yaml2dataframe(LevelCards)
 
-Squib::Deck.new(cards: LevelCards.size, layout: 'layout-cards.yml') do
-  background color: 'white'
-  rect layout: 'cut' # cut line as defined by TheGameCrafter
-  rect layout: 'safe', stroke_color: "black"
-  rect layout: 'HeaderFlatBottom', fill_color: "black"
-  rect layout: 'HeaderRound', fill_color: "black", height: 250
+# Squib::Deck.new(cards: LevelCards.size, layout: 'layout-cards.yml') do
+#   background color: 'white'
+#   rect layout: 'cut' # cut line as defined by TheGameCrafter
+#   rect layout: 'safe', stroke_color: "black"
+#   rect layout: 'HeaderFlatBottom', fill_color: "black"
+#   rect layout: 'HeaderRound', fill_color: "black", height: 250
 
-  text str: LevelCards2.title, layout: 'LTitle', color: "white"
-  png file: LevelCards2.icon, x: 150, y: 340, width: 540, height: 690
+#   text str: LevelCards2.title, layout: 'LTitle', color: "white"
+#   png file: LevelCards2.icon, x: 150, y: 340, width: 540, height: 690
 
-  save_home_made "levels.pdf"
-end
+#   save_home_made "levels.pdf"
+# end
 
 # rules
 def make_rules_cards(description, output_file)
-  Squib::Deck.new(cards: 8, layout: 'layout-cards.yml') do
+  Squib::Deck.new(cards: 1, layout: 'layout-cards.yml') do
     background color: 'white'
     rect layout: 'cut' # cut line as defined by TheGameCrafter
     rect layout: 'safe' # safe zone as defined by TheGameCrafter
@@ -106,6 +112,6 @@ end
 
 RuleCards = YAML.load_file('data/rules.yml')
 
-make_rules_cards(RuleCards['description_fr'], "rules_fr.pdf")
-make_rules_cards(RuleCards['description_en'], "rules_en.pdf")
+# make_rules_cards(RuleCards['description_fr'], "rules_fr.pdf")
+# make_rules_cards(RuleCards['description_en'], "rules_en.pdf")
 
